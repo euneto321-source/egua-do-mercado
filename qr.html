@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QR Code — Égua do Mercado</title>
+<link rel="icon" href="img/marca/icone-192.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Poppins:wght@400;600&display=swap">
+<script src="js/config.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<style>
+  :root{--acai:#3A0739;--bandeira:#D62828;--laranja:#FF7A00;--creme:#FFF5E6}
+  *{box-sizing:border-box}
+  body{margin:0;background:#E9E1D6;font-family:Poppins,system-ui,sans-serif;color:#1F1F1F;display:grid;place-items:center;min-height:100vh;padding:24px 16px;gap:16px}
+  .cartaz{width:148mm;height:210mm;max-width:100%;background:var(--acai);color:#fff;border-radius:6mm;padding:12mm 11mm;display:flex;flex-direction:column;align-items:center;text-align:center;gap:6mm;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+  .cartaz img.logo{width:100%;mix-blend-mode:lighten}
+  h1{font-family:"Baloo 2",sans-serif;font-weight:800;font-size:12mm;line-height:1;margin:0}
+  h1 em{font-style:normal;color:var(--laranja)}
+  .qr{background:#fff;border-radius:5mm;padding:5mm;width:78mm;height:78mm;display:grid;place-items:center}
+  .qr canvas{width:100%;height:100%;image-rendering:pixelated}
+  .passos{font-size:4.2mm;line-height:1.35;margin:0;opacity:.92}
+  .passos b{color:var(--laranja)}
+  .url{font-size:3.4mm;opacity:.75;word-break:break-all;margin-top:auto}
+  .acoes{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .acoes button{font:600 15px Poppins,sans-serif;border:0;border-radius:12px;padding:12px 18px;background:var(--acai);color:#fff;cursor:pointer}
+  .acoes button.sec{background:#fff;color:var(--acai)}
+  @page{size:A5;margin:0}
+  @media print{body{background:#fff;padding:0;min-height:0}.acoes{display:none}.cartaz{box-shadow:none;border-radius:0;width:148mm;height:210mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+  <div class="cartaz" id="cartaz">
+    <img class="logo" src="img/marca/logo-horizontal.jpg" alt="Égua do Mercado 24 horas">
+    <h1>Veja os produtos<br>e <em>preços</em> no celular</h1>
+    <div class="qr"><canvas id="qr" width="600" height="600" aria-label="QR Code do catálogo"></canvas></div>
+    <p class="passos">Aponte a câmera do celular para o código.<br><b>Escolheu → pagou → levou.</b> Aberto 24 horas.</p>
+    <div class="url" id="url"></div>
+  </div>
+  <div class="acoes">
+    <button onclick="window.print()">Imprimir cartaz (A5)</button>
+    <button class="sec" id="baixar">Baixar QR em PNG</button>
+  </div>
+<script>
+  const url = (window.EGUA_CONFIG && EGUA_CONFIG.siteUrl) || new URL("./", location.href).href;
+  document.getElementById("url").textContent = url.replace(/^https?:\/\//, "");
+  const qr = qrcode(0, "M"); qr.addData(url); qr.make();
+  const n = qr.getModuleCount(), cv = document.getElementById("qr"), ctx = cv.getContext("2d");
+  const borda = 2, px = Math.floor(cv.width / (n + borda * 2)), off = Math.floor((cv.width - px * n) / 2);
+  ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, cv.width, cv.height); ctx.fillStyle = "#3A0739";
+  for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) if (qr.isDark(r, c)) ctx.fillRect(off + c * px, off + r * px, px, px);
+  document.getElementById("baixar").onclick = () => { const a = document.createElement("a"); a.download = "qr-egua-do-mercado.png"; a.href = cv.toDataURL("image/png"); a.click(); };
+</script>
+</body>
+</html>
