@@ -1,6 +1,6 @@
 // Cache para abrir rápido e funcionar sem internet com a última versão vista.
 // Página e dados: rede primeiro (preço sempre atualizado). Fotos e fontes: cache primeiro.
-const VERSAO = "egua-v1";
+const VERSAO = "egua-v2";
 const BASE = ["./", "index.html", "js/config.js", "data/produtos.json", "manifest.webmanifest", "img/marca/logo-horizontal.jpg", "img/marca/icone-192.png"];
 
 self.addEventListener("install", e => { e.waitUntil(caches.open(VERSAO).then(c => c.addAll(BASE))); self.skipWaiting(); });
