@@ -1,0 +1,326 @@
+{
+ "3coracoes-baunilha-250": {
+  "id": "01a14c9a-01bd-7ab3-a27f-42040da3471b",
+  "nome_ton": "Bebida Láctea 3 Corações Baunilha 250ml"
+ },
+ "3coracoes-chocolate-250": {
+  "id": "01a14c98-0f7b-7b0b-9ee9-f7febe8e229a",
+  "nome_ton": "Bebida láctea 3 Corações Chocolate 250ml"
+ },
+ "3coracoes-napolitano-250": {
+  "id": "01a14c96-7ea9-79de-b640-f8bd332022e3",
+  "nome_ton": "Bebida Láctea 3 Corações Napolitano 250ml"
+ },
+ "agua-crystal-gas-500": {
+  "id": "01a15996-5816-7867-9d43-b66968ce496d",
+  "nome_ton": "Água mineral natural com gás Crystal"
+ },
+ "always-basic-10": {
+  "id": "01a1637f-5f84-7872-b009-f0178f0d27e9",
+  "nome_ton": "Absorventes Always"
+ },
+ "banana-chips-50": {
+  "id": "01a16378-776d-70f8-880a-768598302373",
+  "nome_ton": "Banana Chips"
+ },
+ "batata-bem-brasil-400": {
+  "id": "01a14cd5-c475-74b9-80f8-d5247dcbdd2f",
+  "nome_ton": "Batata Bem Brasil para assar 400g"
+ },
+ "bis-original-100": {
+  "id": "01a1509b-9fe9-7450-a3a0-6b283cf47dc5",
+  "nome_ton": "Bis Original"
+ },
+ "bolinho-bauducco-duplo-chocolate-40": {
+  "id": "01a16366-3eab-741c-ba2a-2b72fde511a2",
+  "nome_ton": "Bauducco Bolinho Sabor Duplo Chocolate"
+ },
+ "bono-chocolate-90": {
+  "id": "01a14cbc-f644-716f-9fa7-6038104064f8",
+  "nome_ton": "Bono de Chocolate 90g"
+ },
+ "cereal-nescau-120": {
+  "id": "01a14caa-6aa9-7de5-8b54-d789bf19ae59",
+  "nome_ton": "Cereal Nescau 120g"
+ },
+ "cheetos-bola-35": {
+  "id": "01a14cdc-5472-7c59-a8ed-84311d9356a9",
+  "nome_ton": "Cheetos Bola 35g"
+ },
+ "cheetos-lua-35": {
+  "id": "01a14cd9-04bb-7705-a93f-ca7bb8fd335a",
+  "nome_ton": "Cheetos Lua 35g"
+ },
+ "cheetos-onda-40": {
+  "id": "01a14cdb-7a5d-7769-bd3a-87486225117b",
+  "nome_ton": "Cheetos Onda 40g"
+ },
+ "club-social-integral-288": {
+  "id": "01a14cb0-dcc3-7f36-8172-8bf97edc1894",
+  "nome_ton": "Club Social Integral 288g"
+ },
+ "coca-cola-lata-220": {
+  "id": "01a14c9f-9ee1-797f-beb8-e7b7f8c602bc",
+  "nome_ton": "Coca-cola Lata 220ml"
+ },
+ "coca-cola-zero-lata-220": {
+  "id": "01a14ca0-8cc9-7c5a-b5b7-c890919ed100",
+  "nome_ton": "Coca-cola Lata S/ Açúcar 220ml"
+ },
+ "colgate-tripla-acao-xtra-white": {
+  "id": "01a16383-0fdb-78ce-b535-bdfe648195d3",
+  "nome_ton": "Colgate Tripla Ação XTRA WHITE"
+ },
+ "cookie-garoto-crocante": {
+  "id": "01a14cb1-c6c6-7ebd-a958-9994d5802fe7",
+  "nome_ton": "Cookie Crocante Chocolate Garoto"
+ },
+ "cookies-nestle-60": {
+  "id": "01a1636c-c4f9-74b1-a8e7-b72d5d4fc751",
+  "nome_ton": "Nestlé cookies"
+ },
+ "coxinha-asa-ave-serra-600": {
+  "id": "01a16386-2152-7264-ade7-582d94ea6cd0",
+  "nome_ton": "Coxinha da Asa Temperada Air Fryer Ave Serra"
+ },
+ "crony-35": {
+  "id": "01a14cda-4aa5-7741-bc77-1d6d2a7ff4e4",
+  "nome_ton": "Batata Crony 35g"
+ },
+ "crunch-garoto-80": {
+  "id": "01a14cb8-da66-7266-889e-947ab3bc0993",
+  "nome_ton": "Barra de Chocolate Crunch Garoto 80g"
+ },
+ "crunch-nestle-80": {
+  "id": "01a14cbc-32d1-72f2-977d-05c74f7d3b0e",
+  "nome_ton": "Barra de Chocolate Crunch Nestlé 80g"
+ },
+ "cup-noodles-carne-69": {
+  "id": "01a14ca6-936f-7dfb-82eb-333d4a3bc936",
+  "nome_ton": "Cup Noodles de Carne 69g"
+ },
+ "dafruta-laranja-200": {
+  "id": "01a14c9b-fc13-7b8d-a083-3de317d329a1",
+  "nome_ton": "Suco de Laranja Dafruta 200ml"
+ },
+ "danoninho-70": {
+  "id": "01a14cc5-0637-72f7-9868-1ac68e5f8076",
+  "nome_ton": "Iogurte Danoninho 70g"
+ },
+ "doritos-nacho-32": {
+  "id": "01a14cd9-90fc-7055-854c-4558ce18d4a4",
+  "nome_ton": "Doritos Nacho 32g"
+ },
+ "escova-colgate-classic-clean": {
+  "id": "01a16381-778a-76c4-86e7-98116b507728",
+  "nome_ton": "Escova de Dentes Colgate Classic Clean"
+ },
+ "fandangos-queijo-35": {
+  "id": "01a15994-3319-77e6-864c-e88978e2ecc3",
+  "nome_ton": "Fandangos Sabor Queijo"
+ },
+ "fanta-laranja-lata-350": {
+  "id": "01a14ca1-e7de-7d20-a150-e94905c85617",
+  "nome_ton": "Fanta Laranja Lata 350ml"
+ },
+ "fettuccine-perdigao-bolonhesa": {
+  "id": "01a14cd1-a605-7ab5-8b90-710f216ae8f7",
+  "nome_ton": "Fettuccine bolonhesa Pedigão"
+ },
+ "flambynho-morango-100": {
+  "id": "01a14cc4-4375-73ff-94fb-86e1a0e177dc",
+  "nome_ton": "Iogurte Flambynho de Morango 100g"
+ },
+ "flay-queijo-40": {
+  "id": "01a1637b-18f3-7b19-8f82-e704b410219c",
+  "nome_ton": "Gourmet flay Sabor Queijo"
+ },
+ "guarana-antarctica-lata-350": {
+  "id": "01a14ca4-7b80-7764-a8fa-e4c1099af210",
+  "nome_ton": "Guaraná Antártica Lata 350ml"
+ },
+ "halls-morango": {
+  "id": "01a14cc1-5159-7229-bf90-81af9274542e",
+  "nome_ton": "Halls de Morango"
+ },
+ "hamburguer-perdigao-56": {
+  "id": "01a14cd2-d479-757c-afa0-c0d07085be9c",
+  "nome_ton": "Carne de Hambúrguer Perdigão 56g"
+ },
+ "hot-hit-seara-xbacon-145": {
+  "id": "01a14cce-e300-7e88-b0e5-28662ebca480",
+  "nome_ton": "Sanduíche Hot Hit Seara X-Bacon 145g"
+ },
+ "iogurte-duo-morango-120": {
+  "id": "01a1638c-e44e-7aea-9a34-988d79a48413",
+  "nome_ton": "Iogurte Duo Morango Canto de Minas 120g"
+ },
+ "iogurte-nestle-morango-170": {
+  "id": "01a14cc6-0ae9-745b-bdc1-e228a1ed05fd",
+  "nome_ton": "Iogurte de Morango Nestlé 170g"
+ },
+ "jasmine-rosquinha-laranja-cenoura": {
+  "id": "01a16374-509a-7094-a0bf-4cf74a1ee92e",
+  "nome_ton": "Jasmine Rosquinhas Laranja e Cenoura"
+ },
+ "jasmine-sousweet-banana-aveia-135": {
+  "id": "01a1636e-e9e3-7f2c-811e-9d0f11b5dd6f",
+  "nome_ton": "Biscoito Integral Jasmine SOUsweet Banana e Aveia"
+ },
+ "kitkat-dark-41": {
+  "id": "01a14cb7-cfcb-71b9-87cf-baad4a7cb849",
+  "nome_ton": "KitKat Dark 41,5g"
+ },
+ "lasanha-sadia-bolonhesa-350": {
+  "id": "01a14ccc-7314-7339-95ce-c89356fa3b42",
+  "nome_ton": "Lasanha Bolonhesa Sadia 350g"
+ },
+ "leite-em-po-200": {
+  "id": "01a14cc9-b115-74e1-9391-51bf53597953",
+  "nome_ton": "Leite em Pó 200g"
+ },
+ "marata-abacaxi-200": {
+  "id": "01a14c9c-989b-7b05-b3d0-8346f658d6c0",
+  "nome_ton": "Suco de Abacaxi Maratá 200ml"
+ },
+ "marata-morango-200": {
+  "id": "01a14c9d-f4d0-7b6b-9e5a-1443a09cced3",
+  "nome_ton": "Suco de Morango Maratá 200ml"
+ },
+ "margarina-qualy-sal-250": {
+  "id": "01a14cc7-0aff-7297-9637-30e4e614ded2",
+  "nome_ton": "Margarina Qualy C/ Sal 250g"
+ },
+ "mini-oreo-35": {
+  "id": "01a14cac-a4e4-7067-9e2f-1df17d178d90",
+  "nome_ton": "Biscoito Mini Oreo 35g"
+ },
+ "monster-473": {
+  "id": "01a14ca3-18ca-71dc-a81a-4cdb2d29d56f",
+  "nome_ton": "Energético Monster 473ml"
+ },
+ "moving-protein-310": {
+  "id": "01a1638b-6541-7bee-a5c8-a3042f14c8d5",
+  "nome_ton": "Moving Protein Booster Limão"
+ },
+ "negresco-morango-90": {
+  "id": "01a14ca9-1d20-7e99-b795-88551af7900d",
+  "nome_ton": "Biscoito Negresco Morango 90g"
+ },
+ "nescau-pronto-270": {
+  "id": "01a14c94-6399-73a3-a077-f90aa6cc6112",
+  "nome_ton": "Nescau Chocolate 270ml"
+ },
+ "nissin-carne-85": {
+  "id": "01a14cab-f4c6-7fa1-8efa-3cb1826d9b16",
+  "nome_ton": "Macarrão Nissin Carne 85g"
+ },
+ "nissin-galinha-caipira-85": {
+  "id": "01a14cab-348a-7df5-9cb1-53573a85a77f",
+  "nome_ton": "Macarrão Nissin Galinha Caipira 85g"
+ },
+ "nuggets-275": {
+  "id": "01a14cca-aced-7538-bb25-37b576223d33",
+  "nome_ton": "Nuggets 275g"
+ },
+ "nutella": {
+  "id": "01a1636a-971e-72d9-9baa-c8feae5a7f17",
+  "nome_ton": "nutella"
+ },
+ "nutry-banana-22": {
+  "id": "01a14cc3-4add-7298-be19-d9ecd659454b",
+  "nome_ton": "Barra Nutry de Banana 22g"
+ },
+ "oreo-original-18": {
+  "id": "01a16368-d537-712b-b447-9b679cc8929b",
+  "nome_ton": "OREO ORIGINAL 18g"
+ },
+ "ovos-2un": {
+  "id": "01a156a3-1014-7c2a-b61e-ada5ba754fa9",
+  "nome_ton": "Ovos 2und"
+ },
+ "pao-bauducco-fermentacao-390": {
+  "id": "01a16384-7f75-78da-953c-6357893bd329",
+  "nome_ton": "Pão Fermentação Natural Tradicional"
+ },
+ "pao-de-queijo-minas-400": {
+  "id": "01a14cd2-2674-7632-b29b-b1365cfd9bc5",
+  "nome_ton": "Pão de Queijo Minas 400g"
+ },
+ "passatempo-morango-130": {
+  "id": "01a14ca8-69e5-7ce4-9d0f-e009309b67ce",
+  "nome_ton": "Biscoito Passatempo Morango 130g"
+ },
+ "pipoca-mariza-manteiga-100": {
+  "id": "01a14cd6-980e-76a7-9493-926be8736759",
+  "nome_ton": "Pipoca de Manteiga Mariza 100g"
+ },
+ "pipoca-mariza-natural-100": {
+  "id": "01a14cdc-f300-7770-9b4e-6a9ed14d1a50",
+  "nome_ton": "Pipoca Mariza Natural 100g"
+ },
+ "pipoca-mariza-queijo-100": {
+  "id": "01a14cd7-3606-7fea-ba48-675ce6159050",
+  "nome_ton": "Pipoca de Queijo Mariza 100g"
+ },
+ "pizza-beni-calabresa-110": {
+  "id": "01a14cd0-f992-761a-85a9-3eaabe0384c0",
+  "nome_ton": "Pizza Beni de Calabresa 110g"
+ },
+ "pringles-original-35": {
+  "id": "01a14cd7-f3d1-76cf-9ede-5636193dd830",
+  "nome_ton": "Batata Pringles Original 35g"
+ },
+ "pringles-original-latao": {
+  "id": "01a15984-a150-753e-9b10-dc8b4f1469db",
+  "nome_ton": "Pringles Sabor Original Latão"
+ },
+ "rancheiro-rosquinha-coco-300": {
+  "id": "01a16377-09b0-7af9-a21b-ad1b9802197f",
+  "nome_ton": "Rosquinha de Coco Rancheiro"
+ },
+ "red-bull-250": {
+  "id": "01a14ca5-5e03-7ded-8515-fb3aaa2a6a57",
+  "nome_ton": "Energético Red Bull 250ml"
+ },
+ "refinata-picanha-40": {
+  "id": "01a14cdb-061a-7759-8ba9-52e0cd08f453",
+  "nome_ton": "Batata Refinata Picanha 40g"
+ },
+ "requeijao-tirolez-200": {
+  "id": "01a14cc8-2ec1-7d23-a4c2-ba32860deb4d",
+  "nome_ton": "Requeijão Tirolez Tradicional 200g"
+ },
+ "sanduiche-sadia-frango-145": {
+  "id": "01a14ccd-5df0-74e3-90de-0e81311a22a0",
+  "nome_ton": "Sanduíche Sadia de Frango 145g"
+ },
+ "sonho-de-valsa": {
+  "id": "01a1637d-740d-77f2-a1f4-ca0bfee14f27",
+  "nome_ton": "Bombom Sonho de Valsa"
+ },
+ "steak-frango-rezende-100": {
+  "id": "01a16388-39ae-77d4-998a-09c0d3da5596",
+  "nome_ton": "Steak de Frango Rezende"
+ },
+ "tirinha-frango-aurora-275": {
+  "id": "01a14ccf-8e5d-7605-b542-73ce254d6c03",
+  "nome_ton": "Tirinha de Frango Aurora 275g"
+ },
+ "toddynho-200": {
+  "id": "01a14c9b-15d5-7588-a716-7c85aebcfa12",
+  "nome_ton": "Toddynho 200ml"
+ },
+ "torcida-bacon-35": {
+  "id": "01a14cd4-fabc-7f85-a945-ff3723e3ddab",
+  "nome_ton": "Petisco Torcida Bacon 35g"
+ },
+ "torcida-churrasco-35": {
+  "id": "01a14cd4-0548-7670-845d-bc7e5fb65e57",
+  "nome_ton": "Petisco Torcida Churrasco 35g"
+ },
+ "trident": {
+  "id": "01a14cbf-d3f8-734f-b81c-f16f9c3af408",
+  "nome_ton": "Trident Melancia"
+ }
+}

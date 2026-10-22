@@ -1,64 +1,87 @@
-sku,nome,marca,apresentacao,categoria,preco,preco_promo,promo_ate,foto,mais_procurado,novidade_desde,ativo,ordem
-agua-crystal-gas-500,Água Mineral com Gás,Crystal,500 ml,Bebidas,"3,50",,,img/agua-crystal-gas-500.jpg,,,S,1
-coca-cola-lata-220,Coca-Cola,Coca-Cola,Lata 220 ml,Bebidas,"4,00",,,img/coca-cola-lata-220.jpg,,,S,2
-coca-cola-zero-lata-220,Coca-Cola Sem Açúcar,Coca-Cola,Lata 220 ml,Bebidas,"4,00",,,img/coca-cola-zero-lata-220.jpg,,,S,3
-fanta-laranja-lata-350,Fanta Laranja,Fanta,Lata 350 ml,Bebidas,"4,00",,,img/fanta-laranja-lata-350.jpg,,,S,4
-guarana-antarctica-lata-350,Guaraná Antarctica,Antarctica,Lata 350 ml,Bebidas,"4,00",,,img/guarana-antarctica-lata-350.jpg,,,S,5
-nescau-pronto-270,Nescau Bebida Láctea,Nestlé,270 ml,Bebidas,"9,00",,,img/nescau-pronto-270.jpg,,,S,6
-toddynho-200,Toddynho,Toddynho,200 ml,Bebidas,"4,00",,,img/toddynho-200.jpg,,,S,7
-3coracoes-baunilha-250,Bebida Láctea Baunilha,3 Corações,250 ml,Bebidas,"10,00",,,img/3coracoes-baunilha-250.jpg,,,S,8
-3coracoes-chocolate-250,Bebida Láctea Chocolate,3 Corações,250 ml,Bebidas,"10,00",,,img/3coracoes-chocolate-250.jpg,,,S,9
-3coracoes-napolitano-250,Bebida Láctea Napolitano,3 Corações,250 ml,Bebidas,"10,00",,,img/3coracoes-napolitano-250.jpg,,,S,10
-marata-abacaxi-200,Suco de Abacaxi,Maratá,200 ml,Bebidas,"3,00",,,img/marata-abacaxi-200.jpg,,,S,11
-marata-morango-200,Suco de Morango,Maratá,200 ml,Bebidas,"3,00",,,img/marata-morango-200.jpg,,,S,12
-dafruta-laranja-200,Suco de Laranja,Dafruta,200 ml,Bebidas,"2,00",,,img/dafruta-laranja-200.jpg,,,S,13
-monster-473,Energético Monster,Monster,Lata 473 ml,Energéticos,"14,50",,,img/monster-473.jpg,,,S,14
-red-bull-250,Energético Red Bull,Red Bull,Lata 250 ml,Energéticos,"13,00",,,img/red-bull-250.jpg,,,S,15
-pringles-original-35,Pringles Original,Pringles,35 g,Snacks,"9,00",,,img/pringles-original-35.jpg,,,S,16
-pringles-original-latao,Pringles Original Latão,Pringles,Lata grande,Snacks,"12,00",,,img/pringles-original-latao.jpg,,,S,17
-crony-35,Batata Crony,Crony,35 g,Snacks,"5,50",,,img/crony-35.jpg,,,S,18
-refinata-picanha-40,Batata Refinata Picanha,Refinata,40 g,Snacks,"6,50",,,img/refinata-picanha-40.jpg,,,S,19
-doritos-nacho-32,Doritos Queijo Nacho,Doritos,32 g,Snacks,"7,00",,,img/doritos-nacho-32.jpg,,,S,20
-cheetos-lua-35,Cheetos Lua,Cheetos,35 g,Snacks,"6,00",,,img/cheetos-lua-35.jpg,,,S,21
-cheetos-bola-35,Cheetos Bola,Cheetos,35 g,Snacks,"6,50",,,img/cheetos-bola-35.jpg,,,S,22
-cheetos-onda-40,Cheetos Onda,Cheetos,40 g,Snacks,"5,00",,,img/cheetos-onda-40.jpg,,,S,23
-fandangos-queijo-35,Fandangos Queijo,Fandangos,35 g,Snacks,"4,70",,,img/fandangos-queijo-35.jpg,,,S,24
-torcida-bacon-35,Torcida Bacon,Torcida,35 g,Snacks,"3,00",,,img/torcida-bacon-35.jpg,,,S,25
-torcida-churrasco-35,Torcida Churrasco,Torcida,35 g,Snacks,"3,00",,,img/torcida-churrasco-35.jpg,,,S,26
-pipoca-mariza-manteiga-100,Pipoca de Micro-ondas Manteiga,Mariza,100 g,Snacks,"3,00",,,img/pipoca-mariza-manteiga-100.jpg,,,S,27
-pipoca-mariza-queijo-100,Pipoca de Micro-ondas Queijo,Mariza,100 g,Snacks,"3,00",,,img/pipoca-mariza-queijo-100.jpg,,,S,28
-pipoca-mariza-natural-100,Pipoca de Micro-ondas Natural,Mariza,100 g,Snacks,"3,00",,,img/pipoca-mariza-natural-100.jpg,,,S,29
-mini-oreo-35,Mini Oreo,Oreo,35 g,Biscoitos & Cereais,"5,00",,,img/mini-oreo-35.jpg,,,S,30
-negresco-morango-90,Negresco Morango,Nestlé,90 g,Biscoitos & Cereais,"5,00",,,img/negresco-morango-90.jpg,,,S,31
-passatempo-morango-130,Passatempo Morango,Nestlé,130 g,Biscoitos & Cereais,"5,50",,,img/passatempo-morango-130.jpg,,,S,32
-bono-chocolate-90,Bono Chocolate,Nestlé,90 g,Biscoitos & Cereais,"5,00",,,img/bono-chocolate-90.jpg,,,S,33
-cookie-garoto-crocante,Cookie Crocante Chocolate,Garoto,Pacote,Biscoitos & Cereais,"4,50",,,img/cookie-garoto-crocante.jpg,,,S,34
-club-social-integral-288,Club Social Integral,Club Social,288 g,Biscoitos & Cereais,"2,50",,,img/club-social-integral-288.jpg,,,S,35
-cereal-nescau-120,Cereal Nescau,Nestlé,120 g,Biscoitos & Cereais,"8,00",,,img/cereal-nescau-120.jpg,,,S,36
-nutry-banana-22,Barra de Cereal Banana,Nutry,22 g,Biscoitos & Cereais,"3,00",,,img/nutry-banana-22.jpg,,,S,37
-crunch-garoto-80,Chocolate Crunch,Garoto,80 g,Chocolates & Doces,"9,50",,,img/crunch-garoto-80.jpg,,,S,38
-crunch-nestle-80,Chocolate Crunch,Nestlé,80 g,Chocolates & Doces,"11,00",,,img/crunch-nestle-80.jpg,,,S,39
-kitkat-dark-41,KitKat Dark,Nestlé,"41,5 g",Chocolates & Doces,"6,00",,,img/kitkat-dark-41.jpg,,,S,40
-bis-original-100,Bis Original,Lacta,"100,8 g · 16 unidades",Chocolates & Doces,"12,50",,,img/bis-original-100.jpg,,,S,41
-halls-morango,Halls Morango,Halls,Unidade,Chocolates & Doces,"2,00",,,img/halls-morango.jpg,,,S,42
-trident,Trident,Trident,Unidade,Chocolates & Doces,"3,00",,,img/trident.jpg,,,S,43
-cup-noodles-carne-69,Cup Noodles Carne,Nissin,69 g,Instantâneos,"6,00",,,img/cup-noodles-carne-69.jpg,,,S,44
-nissin-carne-85,Lámen Carne,Nissin,85 g,Instantâneos,"3,50",,,img/nissin-carne-85.jpg,,,S,45
-nissin-galinha-caipira-85,Lámen Galinha Caipira,Nissin,85 g,Instantâneos,"3,50",,,img/nissin-galinha-caipira-85.jpg,,,S,46
-lasanha-sadia-bolonhesa-350,Lasanha Bolonhesa,Sadia,350 g,Refrigerados & Congelados,"19,00",,,img/lasanha-sadia-bolonhesa-350.jpg,,,S,47
-fettuccine-perdigao-bolonhesa,Fettuccine Bolonhesa,Perdigão,Pacote,Refrigerados & Congelados,"11,00",,,img/fettuccine-perdigao-bolonhesa.jpg,,,S,48
-sanduiche-sadia-frango-145,Sanduíche de Frango,Sadia,145 g,Refrigerados & Congelados,"13,50",,,img/sanduiche-sadia-frango-145.jpg,,,S,49
-hot-hit-seara-xbacon-145,Hot Hit X-Bacon,Seara,145 g,Refrigerados & Congelados,"12,00",,,img/hot-hit-seara-xbacon-145.jpg,,,S,50
-pizza-beni-calabresa-110,Pizza Calabresa,Beni,110 g,Refrigerados & Congelados,"7,50",,,img/pizza-beni-calabresa-110.jpg,,,S,51
-nuggets-275,Nuggets,Aurora,275 g,Refrigerados & Congelados,"11,00",,,,,,S,52
-tirinha-frango-aurora-275,Tirinhas de Frango,Aurora,275 g,Refrigerados & Congelados,"11,00",,,img/tirinha-frango-aurora-275.jpg,,,S,53
-hamburguer-perdigao-56,Hambúrguer Bovino,Perdigão,56 g,Refrigerados & Congelados,"2,00",,,img/hamburguer-perdigao-56.jpg,,,S,54
-pao-de-queijo-minas-400,Pão de Queijo,Minas,400 g,Refrigerados & Congelados,"13,50",,,img/pao-de-queijo-minas-400.jpg,,,S,55
-batata-bem-brasil-400,Batata para Assar,Bem Brasil,400 g,Refrigerados & Congelados,"10,50",,,img/batata-bem-brasil-400.jpg,,,S,56
-danoninho-70,Danoninho,Danone,70 g,Refrigerados & Congelados,"5,50",,,img/danoninho-70.jpg,,,S,57
-iogurte-nestle-morango-170,Iogurte Morango,Nestlé,170 g,Refrigerados & Congelados,"5,50",,,img/iogurte-nestle-morango-170.jpg,,,S,58
-flambynho-morango-100,Flambynho Morango,Flambynho,100 g,Refrigerados & Congelados,"4,50",,,img/flambynho-morango-100.jpg,,,S,59
-requeijao-tirolez-200,Requeijão Tradicional,Tirolez,200 g,Refrigerados & Congelados,"12,50",,,img/requeijao-tirolez-200.jpg,,,S,60
-margarina-qualy-sal-250,Margarina com Sal,Qualy,250 g,Refrigerados & Congelados,"8,50",,,img/margarina-qualy-sal-250.jpg,,,S,61
-leite-em-po-200,Leite em Pó Integral,Camponesa,200 g,Mercearia,"8,00",,,img/leite-em-po-200.jpg,,,S,62
-ovos-2un,Ovos,,2 unidades,Mercearia,"2,00",,,img/ovos-2un.jpg,,,S,63
+sku,nome,marca,apresentacao,categoria,preco,preco_promo,promo_ate,foto,mais_procurado,novidade_desde,ativo,ordem,reabastecido_em
+agua-crystal-gas-500,Água Mineral com Gás,Crystal,500 ml,Bebidas,"3,50",,,img/agua-crystal-gas-500.jpg,,,S,1,
+coca-cola-lata-220,Coca-Cola,Coca-Cola,Lata 220 ml,Bebidas,"4,00",,,img/coca-cola-lata-220.jpg,,,S,2,21/10/2026
+coca-cola-zero-lata-220,Coca-Cola Sem Açúcar,Coca-Cola,Lata 220 ml,Bebidas,"4,00",,,img/coca-cola-zero-lata-220.jpg,,,S,3,21/10/2026
+fanta-laranja-lata-350,Fanta Laranja,Fanta,Lata 350 ml,Bebidas,"4,00",,,img/fanta-laranja-lata-350.jpg,,,S,4,
+guarana-antarctica-lata-350,Guaraná Antarctica,Antarctica,Lata 350 ml,Bebidas,"4,00",,,img/guarana-antarctica-lata-350.jpg,,,S,5,
+nescau-pronto-270,Nescau Bebida Láctea,Nestlé,270 ml,Bebidas,"9,00",,,img/nescau-pronto-270.jpg,,,S,6,
+toddynho-200,Toddynho,Toddynho,200 ml,Bebidas,"4,00",,,img/toddynho-200.jpg,,,S,7,
+3coracoes-baunilha-250,Bebida Láctea Baunilha,3 Corações,250 ml,Bebidas,"10,00",,,img/3coracoes-baunilha-250.jpg,,,S,8,
+3coracoes-chocolate-250,Bebida Láctea Chocolate,3 Corações,250 ml,Bebidas,"10,00",,,img/3coracoes-chocolate-250.jpg,,,S,9,
+3coracoes-napolitano-250,Bebida Láctea Napolitano,3 Corações,250 ml,Bebidas,"10,00",,,img/3coracoes-napolitano-250.jpg,,,S,10,
+marata-abacaxi-200,Suco de Abacaxi,Maratá,200 ml,Bebidas,"3,00",,,img/marata-abacaxi-200.jpg,,,S,11,
+marata-morango-200,Suco de Morango,Maratá,200 ml,Bebidas,"3,00",,,img/marata-morango-200.jpg,,,S,12,
+dafruta-laranja-200,Suco de Laranja,Dafruta,200 ml,Bebidas,"2,00",,,img/dafruta-laranja-200.jpg,,,S,13,
+monster-473,Energético Monster,Monster,Lata 473 ml,Energéticos,"14,50",,,img/monster-473.jpg,,,S,14,
+red-bull-250,Energético Red Bull,Red Bull,Lata 250 ml,Energéticos,"13,00",,,img/red-bull-250.jpg,,,S,15,
+pringles-original-35,Pringles Original,Pringles,35 g,Snacks,"9,00",,,img/pringles-original-35.jpg,,,S,16,
+pringles-original-latao,Pringles Original Latão,Pringles,Lata grande,Snacks,"12,00",,,img/pringles-original-latao.jpg,,,S,17,
+crony-35,Batata Crony,Crony,35 g,Snacks,"5,50",,,img/crony-35.jpg,,,S,18,
+refinata-picanha-40,Batata Refinata Picanha,Refinata,40 g,Snacks,"6,50",,,img/refinata-picanha-40.jpg,,,S,19,
+doritos-nacho-32,Doritos Queijo Nacho,Doritos,32 g,Snacks,"7,00",,,img/doritos-nacho-32.jpg,,,S,20,
+cheetos-lua-35,Cheetos Lua,Cheetos,35 g,Snacks,"6,00",,,img/cheetos-lua-35.jpg,,,S,21,
+cheetos-bola-35,Cheetos Bola,Cheetos,35 g,Snacks,"6,50",,,img/cheetos-bola-35.jpg,,,S,22,
+cheetos-onda-40,Cheetos Onda,Cheetos,40 g,Snacks,"5,00",,,img/cheetos-onda-40.jpg,,,S,23,
+fandangos-queijo-35,Fandangos Queijo,Fandangos,35 g,Snacks,"4,70",,,img/fandangos-queijo-35.jpg,,,S,24,
+torcida-bacon-35,Torcida Bacon,Torcida,35 g,Snacks,"3,00",,,img/torcida-bacon-35.jpg,,,S,25,
+torcida-churrasco-35,Torcida Churrasco,Torcida,35 g,Snacks,"3,00",,,img/torcida-churrasco-35.jpg,,,S,26,
+pipoca-mariza-manteiga-100,Pipoca de Micro-ondas Manteiga,Mariza,100 g,Snacks,"3,00",,,img/pipoca-mariza-manteiga-100.jpg,,,S,27,
+pipoca-mariza-queijo-100,Pipoca de Micro-ondas Queijo,Mariza,100 g,Snacks,"3,00",,,img/pipoca-mariza-queijo-100.jpg,,,S,28,
+pipoca-mariza-natural-100,Pipoca de Micro-ondas Natural,Mariza,100 g,Snacks,"3,00",,,img/pipoca-mariza-natural-100.jpg,,,S,29,
+mini-oreo-35,Mini Oreo,Oreo,35 g,Biscoitos & Cereais,"5,00",,,img/mini-oreo-35.jpg,,,S,30,
+negresco-morango-90,Negresco Morango,Nestlé,90 g,Biscoitos & Cereais,"5,00",,,img/negresco-morango-90.jpg,,,S,31,
+passatempo-morango-130,Passatempo Morango,Nestlé,130 g,Biscoitos & Cereais,"5,50",,,img/passatempo-morango-130.jpg,,,S,32,
+bono-chocolate-90,Bono Chocolate,Nestlé,90 g,Biscoitos & Cereais,"5,00",,,img/bono-chocolate-90.jpg,,,S,33,
+cookie-garoto-crocante,Cookie Crocante Chocolate,Garoto,Pacote,Biscoitos & Cereais,"4,50",,,img/cookie-garoto-crocante.jpg,,,S,34,
+club-social-integral-288,Club Social Integral,Club Social,288 g,Biscoitos & Cereais,"2,50",,,img/club-social-integral-288.jpg,,,S,35,
+cereal-nescau-120,Cereal Nescau,Nestlé,120 g,Biscoitos & Cereais,"8,00",,,img/cereal-nescau-120.jpg,,,S,36,
+nutry-banana-22,Barra de Cereal Banana,Nutry,22 g,Biscoitos & Cereais,"3,00",,,img/nutry-banana-22.jpg,,,S,37,
+crunch-garoto-80,Chocolate Crunch,Garoto,80 g,Chocolates & Doces,"9,50",,,img/crunch-garoto-80.jpg,,,S,38,
+crunch-nestle-80,Chocolate Crunch,Nestlé,80 g,Chocolates & Doces,"11,00",,,img/crunch-nestle-80.jpg,,,S,39,
+kitkat-dark-41,KitKat Dark,Nestlé,"41,5 g",Chocolates & Doces,"6,00",,,img/kitkat-dark-41.jpg,,,S,40,
+bis-original-100,Bis Original,Lacta,"100,8 g · 16 unidades",Chocolates & Doces,"12,50",,,img/bis-original-100.jpg,,,S,41,
+halls-morango,Halls Morango,Halls,Unidade,Chocolates & Doces,"2,00",,,img/halls-morango.jpg,,,S,42,
+trident,Trident,Trident,Unidade,Chocolates & Doces,"3,00",,,img/trident.jpg,,,S,43,
+cup-noodles-carne-69,Cup Noodles Carne,Nissin,69 g,Instantâneos,"6,00",,,img/cup-noodles-carne-69.jpg,,,S,44,
+nissin-carne-85,Lámen Carne,Nissin,85 g,Instantâneos,"3,50",,,img/nissin-carne-85.jpg,,,S,45,
+nissin-galinha-caipira-85,Lámen Galinha Caipira,Nissin,85 g,Instantâneos,"3,50",,,img/nissin-galinha-caipira-85.jpg,,,S,46,
+lasanha-sadia-bolonhesa-350,Lasanha Bolonhesa,Sadia,350 g,Refrigerados & Congelados,"19,00",,,img/lasanha-sadia-bolonhesa-350.jpg,,,S,47,
+fettuccine-perdigao-bolonhesa,Fettuccine Bolonhesa,Perdigão,Pacote,Refrigerados & Congelados,"11,00",,,img/fettuccine-perdigao-bolonhesa.jpg,,,S,48,
+sanduiche-sadia-frango-145,Sanduíche de Frango,Sadia,145 g,Refrigerados & Congelados,"13,50",,,img/sanduiche-sadia-frango-145.jpg,,,S,49,
+hot-hit-seara-xbacon-145,Hot Hit X-Bacon,Seara,145 g,Refrigerados & Congelados,"12,00",,,img/hot-hit-seara-xbacon-145.jpg,,,S,50,
+pizza-beni-calabresa-110,Pizza Calabresa,Beni,110 g,Refrigerados & Congelados,"7,50",,,img/pizza-beni-calabresa-110.jpg,,,S,51,
+nuggets-275,Nuggets,Aurora,275 g,Refrigerados & Congelados,"11,00",,,,,,S,52,
+tirinha-frango-aurora-275,Tirinhas de Frango,Aurora,275 g,Refrigerados & Congelados,"11,00",,,img/tirinha-frango-aurora-275.jpg,,,S,53,
+hamburguer-perdigao-56,Hambúrguer Bovino,Perdigão,56 g,Refrigerados & Congelados,"2,00",,,img/hamburguer-perdigao-56.jpg,,,S,54,
+pao-de-queijo-minas-400,Pão de Queijo,Minas,400 g,Refrigerados & Congelados,"13,50",,,img/pao-de-queijo-minas-400.jpg,,,S,55,
+batata-bem-brasil-400,Batata para Assar,Bem Brasil,400 g,Refrigerados & Congelados,"10,50",,,img/batata-bem-brasil-400.jpg,,,S,56,
+danoninho-70,Danoninho,Danone,70 g,Refrigerados & Congelados,"5,50",,,img/danoninho-70.jpg,,,S,57,
+iogurte-nestle-morango-170,Iogurte Morango,Nestlé,170 g,Refrigerados & Congelados,"5,50",,,img/iogurte-nestle-morango-170.jpg,,,S,58,
+flambynho-morango-100,Flambynho Morango,Flambynho,100 g,Refrigerados & Congelados,"4,50",,,img/flambynho-morango-100.jpg,,,S,59,
+requeijao-tirolez-200,Requeijão Tradicional,Tirolez,200 g,Refrigerados & Congelados,"12,50",,,img/requeijao-tirolez-200.jpg,,,S,60,
+margarina-qualy-sal-250,Margarina com Sal,Qualy,250 g,Refrigerados & Congelados,"8,50",,,img/margarina-qualy-sal-250.jpg,,,S,61,
+leite-em-po-200,Leite em Pó Integral,Camponesa,200 g,Mercearia,"8,00",,,img/leite-em-po-200.jpg,,,S,62,
+ovos-2un,Ovos,,2 unidades,Mercearia,"2,00",,,img/ovos-2un.jpg,,,S,63,
+moving-protein-310,Moving Protein Booster,Moving,310 ml,Bebidas,"18,00",,,img/moving-protein-310.jpg,,21/10/2026,S,64,
+banana-chips-50,Banana Chips,,50 g,Snacks,"5,00",,,img/banana-chips-50.jpg,,21/10/2026,S,65,
+flay-queijo-40,Flay Sabor Queijo,Parati,40 g,Snacks,"3,75",,,img/flay-queijo-40.jpg,,21/10/2026,S,66,
+oreo-original-18,Oreo Original,Oreo,18 g,Biscoitos & Cereais,"2,50",,,img/oreo-original-18.jpg,,21/10/2026,S,67,
+cookies-nestle-60,Cookies Chocolate,Nestlé,60 g,Biscoitos & Cereais,"5,00",,,img/cookies-nestle-60.jpg,,21/10/2026,S,68,
+bolinho-bauducco-duplo-chocolate-40,Bolinho Duplo Chocolate,Bauducco,40 g,Biscoitos & Cereais,"3,00",,,img/bolinho-bauducco-duplo-chocolate-40.jpg,,21/10/2026,S,69,
+rancheiro-rosquinha-coco-300,Rosquinha de Coco,Rancheiro,300 g,Biscoitos & Cereais,"7,00",,,img/rancheiro-rosquinha-coco-300.jpg,,21/10/2026,S,70,
+jasmine-rosquinha-laranja-cenoura,Rosquinhas Integrais Laranja e Cenoura,Jasmine,Pacote,Biscoitos & Cereais,"14,75",,,img/jasmine-rosquinha-laranja-cenoura.jpg,,21/10/2026,S,71,
+jasmine-sousweet-banana-aveia-135,Biscoito Integral SOUsweet Banana e Aveia,Jasmine,135 g,Biscoitos & Cereais,"6,50",,,img/jasmine-sousweet-banana-aveia-135.jpg,,21/10/2026,S,72,
+sonho-de-valsa,Bombom Sonho de Valsa,Lacta,Unidade,Chocolates & Doces,"1,50",,,img/sonho-de-valsa.jpg,,21/10/2026,S,73,
+nutella,Nutella,Ferrero,Pote,Chocolates & Doces,"15,00",,,img/nutella.jpg,,21/10/2026,S,74,
+coxinha-asa-ave-serra-600,Coxinha da Asa Temperada Air Fryer,Ave Serra,600 g,Refrigerados & Congelados,"21,00",,,img/coxinha-asa-ave-serra-600.jpg,,21/10/2026,S,75,
+steak-frango-rezende-100,Steak de Frango,Rezende,100 g,Refrigerados & Congelados,"3,00",,,img/steak-frango-rezende-100.jpg,,21/10/2026,S,76,
+iogurte-duo-morango-120,Iogurte Duo Morango,Canto de Minas,120 g,Refrigerados & Congelados,"5,00",,,img/iogurte-duo-morango-120.jpg,,21/10/2026,S,77,
+pao-bauducco-fermentacao-390,Pão de Forma Fermentação Natural,Bauducco,390 g,Mercearia,"10,00",,,img/pao-bauducco-fermentacao-390.jpg,,21/10/2026,S,78,
+colgate-tripla-acao-xtra-white,Creme Dental Tripla Ação Xtra White,Colgate,Tubo,Higiene & Cuidados,"6,00",,,img/colgate-tripla-acao-xtra-white.jpg,,21/10/2026,S,79,
+escova-colgate-classic-clean,Escova de Dentes Classic Clean,Colgate,Macia,Higiene & Cuidados,"8,00",,,img/escova-colgate-classic-clean.jpg,,21/10/2026,S,80,
+always-basic-10,Absorvente Always Basic,Always,10 unidades,Higiene & Cuidados,"6,00",,,img/always-basic-10.jpg,,21/10/2026,S,81,
+cassini-polvilho,Biscoito de Polvilho,Cassini,Pacote,Biscoitos & Cereais,,,,,,21/10/2026,N,82,
+cream-cracker-mammamia,Cream Cracker,Mammamia,Pacote,Biscoitos & Cereais,,,,,,21/10/2026,N,83,
+kinder-joy,Kinder Joy,Kinder,Unidade,Chocolates & Doces,,,,,,21/10/2026,N,84,
+iogurte-nestle-zero-morango-170,Iogurte Zero Morango,Nestlé,170 g,Refrigerados & Congelados,,,,,,21/10/2026,N,85,
+pao-de-queijo-300,Pão de Queijo Tradicional,,300 g,Refrigerados & Congelados,,,,,,21/10/2026,N,86,

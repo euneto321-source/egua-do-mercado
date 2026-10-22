@@ -99,6 +99,47 @@ main{padding-block:14px 8px}
 .tag{font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 7px;border-radius:6px;color:#fff;line-height:1.3}
 .tag.promo{background:var(--promo-bg)} .tag.novo{background:var(--novo-bg)} .tag.top{background:var(--acai)}
 .tag.ex{background:var(--demo-bg);color:var(--demo-fg)}
+.tag.volta{background:#FFE3C2;color:#7A3300} .tag.esg{background:var(--grafite)}
+.card.off .ph img{filter:grayscale(1);opacity:.5}
+.card.off .nm,.card.off .price{color:var(--muted)}
+
+/* Banner principal (carrossel): só produtos disponíveis no totem */
+.hero{margin-block:0 20px}
+.hero-track{display:grid;grid-auto-flow:column;grid-auto-columns:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+  border-radius:20px;overscroll-behavior-x:contain}
+.hero-track::-webkit-scrollbar{display:none}
+.slide{scroll-snap-align:start;position:relative;overflow:hidden;border-radius:20px;padding:18px 18px 20px;display:grid;gap:14px;
+  background:var(--acai);color:#fff;min-height:230px;align-content:start}
+.slide::after{content:"";position:absolute;right:-60px;top:-60px;width:200px;height:200px;border-radius:50%;background:rgba(255,122,0,.18);pointer-events:none}
+.slide.s-dest{background:#5A1663}
+.slide.s-volta{background:var(--bandeira)}
+.slide.s-volta::after{background:rgba(255,255,255,.12)}
+@media (min-width:720px){.slide{grid-template-columns:1fr 1.05fr;align-items:center;padding:26px 28px;min-height:270px}}
+.slide .kick{font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#FFB15C;margin:0}
+.slide.s-volta .kick{color:#FFE3C2}
+.slide h2{font-family:var(--f-display);font-weight:800;font-size:clamp(27px,7.4vw,40px);line-height:.98;margin:4px 0 6px;color:#fff;text-wrap:balance}
+.slide p{margin:0;font-size:14px;line-height:1.4;opacity:.92;max-width:36ch}
+.slide .cta{margin-top:12px;display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;background:#fff;color:var(--acai);
+  font-weight:700;font-size:14px;padding:0 18px;min-height:44px}
+.slide.s-volta .cta{color:var(--bandeira)}
+.fotos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;position:relative;z-index:1}
+.fotos span{aspect-ratio:1/1;background:#fff;border-radius:14px;display:grid;place-items:center;overflow:hidden;box-shadow:0 6px 16px rgba(0,0,0,.22)}
+.fotos span:nth-child(odd){transform:rotate(-3deg)} .fotos span:nth-child(even){transform:rotate(3deg) translateY(6px)}
+.fotos img{width:100%;height:100%;object-fit:contain}
+.dest{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;position:relative;z-index:1}
+.dest button{background:#fff;color:var(--grafite);border:0;border-radius:14px;padding:0 0 8px;overflow:hidden;text-align:left;display:flex;flex-direction:column;gap:2px;
+  box-shadow:0 6px 16px rgba(0,0,0,.22)}
+.dest button{min-width:0}
+.dest img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:#fff;display:block}
+.dest b{font-size:12px;font-weight:600;line-height:1.2;padding:0 8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.4em}
+.dest .price{font-size:18px;padding:0 8px;color:var(--bandeira)}
+.dots{display:flex;justify-content:center;gap:2px;margin-top:6px}
+.dots button{width:30px;height:30px;border:0;background:none;display:grid;place-items:center;padding:0}
+.dots button i{display:block;width:8px;height:8px;border-radius:9px;background:var(--line);transition:width .2s,background .2s}
+.dots button[aria-current="true"] i{width:24px;background:var(--bandeira)}
+#sec-novos,#sec-volta{scroll-margin-top:150px}
+.estq{display:flex;align-items:center;gap:7px}
+.estq i{width:8px;height:8px;border-radius:50%;background:#3DDC84;flex:none}
 
 /* Bloco 24h */
 .info{background:var(--acai);color:#F7E6F0;border-radius:18px;padding:18px;display:grid;gap:14px;margin-block:8px 18px}
@@ -201,6 +242,7 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
   const CFG = Object.assign({
     planilhaCsv: "",                 // link "Publicar na Web" (CSV) da aba Catalogo
     jsonLocal: "data/produtos.json", // cópia embutida, usada se a planilha falhar
+    estoqueJson: "data/estoque.json", // estoque do totem (Ton), atualizado pelo GitHub Actions
     siteUrl: "",                     // link público do catálogo (para o WhatsApp)
     cacheMin: 10,
     prototipo: true                  // mostra o botão de prévia de ofertas
@@ -214,7 +256,8 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
     ["Chocolates & Doces", '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M5 9h14M5 15h14M12 3v18"/>'],
     ["Instantâneos", '<path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M8 3c0 2 1 2 1 4M12 3c0 2 1 2 1 4M16 3c0 2 1 2 1 4"/>'],
     ["Refrigerados & Congelados", '<path d="M12 2v20M4 6.5l16 11M20 6.5l-16 11"/><path d="m9 3 3 2 3-2M9 21l3-2 3 2"/>'],
-    ["Mercearia", '<path d="M3 9h18l-2 11H5z"/><path d="M8 9 12 3l4 6"/>']
+    ["Mercearia", '<path d="M3 9h18l-2 11H5z"/><path d="M8 9 12 3l4 6"/>'],
+    ["Higiene & Cuidados", '<path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/><path d="M9.5 15a2.5 2.5 0 0 0 2.5 2.5"/>']
   ];
   const ICON = Object.fromEntries(CATS.map(([n, p]) => [n, `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`]));
   const ICON_OUTRA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>';
@@ -232,7 +275,7 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
   const data = s => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "") || /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(s || "");
     if (!m) return null; return m[1].length === 4 ? new Date(+m[1], m[2]-1, +m[3]) : new Date(+m[3], m[2]-1, +m[1]); };
 
-  let produtos = [], estado = { cat: "", busca: "", tela: "inicio" }, demo = false;
+  let produtos = [], estoque = null, estado = { cat: "", busca: "", tela: "inicio" }, demo = false;
 
   // ---------- Dados ----------
   function parseCsv(txt) {
@@ -250,15 +293,22 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
     return resto.filter(r => r.some(x => x.trim())).map(r => Object.fromEntries(k.map((h, i) => [h, (r[i] || "").trim()])));
   }
   const num = v => { const n = parseFloat(String(v || "").replace("R$", "").replace(/\s/g, "").replace(",", ".")); return isFinite(n) ? n : null; };
+  // Disponibilidade vem do estoque do totem: > 0 disponível, 0 esgotado, sem par na Ton = oculto.
+  // Sem o arquivo de estoque, mostra a lista sem selos (disp = null) e sem banners.
+  const recente = (s, h) => { const d = data(s); return !!d && d <= h && (h - d) / 864e5 <= 14; };
   function limpar(lista) {
-    const h = hoje();
-    return lista.filter(p => p.nome && num(p.preco) !== null && !/^n/i.test(p.ativo || "S")).map((p, i) => {
-      const promo = num(p.preco_promo), ate = data(p.promo_ate), desde = data(p.novidade_desde);
+    const h = hoje(), itens = estoque && estoque.itens;
+    return lista.filter(p => p.nome && num(p.preco) !== null && !/^n/i.test(p.ativo || "S") && (!itens || itens[p.sku])).map((p, i) => {
+      const promo = num(p.preco_promo), ate = data(p.promo_ate);
       const emPromo = promo !== null && promo < num(p.preco) && (!ate || ate >= h);
-      const novo = !!desde && desde <= h && (h - desde) / 864e5 <= 14;
-      return { ...p, preco: num(p.preco), promo: emPromo ? promo : null, novo, top: /^s/i.test(p.mais_procurado || ""),
+      return { ...p, preco: num(p.preco), promo: emPromo ? promo : null, novo: recente(p.novidade_desde, h), volta: recente(p.reabastecido_em, h),
+        top: /^s/i.test(p.mais_procurado || ""), disp: itens ? itens[p.sku].estoque > 0 : null,
         ordem: num(p.ordem) ?? i, chave: norm([p.nome, p.marca, p.categoria, p.apresentacao].join(" ")) };
-    }).sort((a, b) => a.ordem - b.ordem);
+    }).sort((a, b) => (a.disp === false) - (b.disp === false) || a.ordem - b.ordem);
+  }
+  async function carregarEstoque() {
+    try { const r = await fetch(CFG.estoqueJson, { cache: "no-store" }); if (r.ok) { const e = await r.json(); if (e && e.itens) return e; } } catch {}
+    return null;
   }
   async function carregar() {
     const ler = k => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
@@ -282,11 +332,12 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
   function card(p0) {
     const p = ver(p0);
     const ex = p.ex && (EXEMPLO.promo[p.sku] || EXEMPLO.top.includes(p.sku) || EXEMPLO.novo.includes(p.sku));
-    const tags = [p.promo !== null ? '<span class="tag promo">Oferta</span>' : "", p.novo ? '<span class="tag novo">Novo</span>' : "", ex ? '<span class="tag ex">Exemplo</span>' : ""].join("");
+    const tags = p.disp === false ? '<span class="tag esg">Esgotado</span>'
+      : [p.promo !== null ? '<span class="tag promo">Oferta</span>' : "", p.novo ? '<span class="tag novo">Novo</span>' : "", !p.novo && p.volta ? '<span class="tag volta">De volta</span>' : "", ex ? '<span class="tag ex">Exemplo</span>' : ""].join("");
     const foto = p.foto ? `<img src="${esc(p.foto)}" alt="" loading="lazy" decoding="async" width="600" height="600">`
       : `<span class="noimg"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="m21 17-5-5-8 8"/></svg>Foto em breve</span>`;
     const preco = p.promo !== null ? `<span class="price"><small>R$</small>${brl(p.promo)}</span><span class="old">R$ ${brl(p.preco)}</span>` : `<span class="price"><small>R$</small>${brl(p.preco)}</span>`;
-    return `<button class="card" data-sku="${esc(p.sku)}" aria-label="${esc(p.nome)} ${esc(p.apresentacao)}, R$ ${brl(p.promo ?? p.preco)}">
+    return `<button class="card${p.disp === false ? " off" : ""}" data-sku="${esc(p.sku)}" aria-label="${esc(p.nome)} ${esc(p.apresentacao)}, R$ ${brl(p.promo ?? p.preco)}${p.disp === false ? ", esgotado" : ""}">
       <div class="ph">${foto}</div><div class="tags">${tags}</div>
       <div class="b"><span class="nm">${esc(p.nome)}</span><span class="ap">${esc([norm(p.nome).includes(norm(p.marca)) ? "" : p.marca, p.apresentacao].filter(Boolean).join(" · "))}</span><div class="pr">${preco}</div></div></button>`;
   }
@@ -325,14 +376,59 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
       const r = porCat(estado.cat);
       h = secao(`${esc(estado.cat)} <small>${r.length} itens</small>`, grade(r), `<button class="link" data-cat="">Ver tudo</button>`);
     } else {
-      const ofertas = l.filter(p => p.promo !== null), top = l.filter(p => p.top), novos = l.filter(p => p.novo);
-      if (ofertas.length) h += secao("Ofertas da semana", trilho(ofertas.map(p => produtos.find(x => x.sku === p.sku))), `<button class="link" data-go="ofertas">Ver todas</button>`);
-      if (top.length) h += secao("Mais procurados", trilho(top.map(p => produtos.find(x => x.sku === p.sku))));
-      if (novos.length) h += secao("Chegou agora", trilho(novos.map(p => produtos.find(x => x.sku === p.sku))));
+      // Destaques nunca mostram esgotados.
+      const vitrine = l.filter(p => p.disp !== false), orig = p => produtos.find(x => x.sku === p.sku);
+      const ofertas = vitrine.filter(p => p.promo !== null), top = vitrine.filter(p => p.top), novos = vitrine.filter(p => p.novo), volta = vitrine.filter(p => p.volta && !p.novo);
+      h += heroBloco(novos, volta);
+      if (ofertas.length) h += secao("Ofertas da semana", trilho(ofertas.map(orig)), `<button class="link" data-go="ofertas">Ver todas</button>`);
+      if (novos.length) h += `<div id="sec-novos"></div>` + secao(`Acabou de chegar <small>${novos.length}</small>`, trilho(novos.map(orig)));
+      if (volta.length) h += `<div id="sec-volta"></div>` + secao("Reabastecidos", trilho(volta.map(orig)));
+      if (top.length) h += secao("Mais procurados", trilho(top.map(orig)));
       h += infoBloco();
       for (const c of catsUsadas()) { const r = porCat(c); if (r.length) h += secao(`${esc(c)} <small>${r.length}</small>`, grade(r)); }
     }
     main.innerHTML = h;
+    ligarHero();
+  }
+
+  // ---------- Banner principal ----------
+  // Três peças montadas a partir dos dados: novidades (colagem), novos em destaque (foto, nome e preço) e reabastecidos.
+  // Só entram produtos com foto e disponíveis; sem estoque confirmado (disp null) não há banner.
+  const comFoto = l => l.filter(p => p.foto && p.disp === true);
+  function variados(l, n) { // um por categoria primeiro, depois completa
+    const r = [], vistos = new Set();
+    for (const p of l) if (!vistos.has(p.categoria)) { vistos.add(p.categoria); r.push(p); }
+    for (const p of l) if (!r.includes(p)) r.push(p);
+    return r.slice(0, n);
+  }
+  const mini = p => `<span><img src="${esc(p.foto)}" alt="${esc(p.nome)}" width="600" height="600" decoding="async"></span>`;
+  function heroBloco(novos, volta) {
+    const n = comFoto(novos), v = comFoto(volta), slides = [];
+    if (n.length) slides.push(`<div class="slide s-novos" role="group" aria-roledescription="banner" aria-label="Novidades">
+      <div><p class="kick">Égua do Mercado 24h</p><h2>Chegaram novidades! 🛒</h2><p>Conheça os novos produtos disponíveis no nosso minimercado 24h.</p>
+      <button class="cta" data-ir="sec-novos">Ver novidades →</button></div><div class="fotos">${variados(n, 4).map(mini).join("")}</div></div>`);
+    if (n.length >= 3) slides.push(`<div class="slide s-dest" role="group" aria-roledescription="banner" aria-label="Novos produtos em destaque">
+      <div><p class="kick">Novos em destaque</p><h2>Acabaram de chegar no totem</h2><p>Escolha, pague no totem e leve na hora.</p></div>
+      <div class="dest">${variados(n.slice().reverse(), 3).map(p => `<button data-sku="${esc(p.sku)}"><img src="${esc(p.foto)}" alt="" width="600" height="600" decoding="async"><b>${esc(p.nome)}</b><span class="price"><small>R$</small>${brl(p.preco)}</span></button>`).join("")}</div></div>`);
+    if (v.length) slides.push(`<div class="slide s-volta" role="group" aria-roledescription="banner" aria-label="Reabastecidos">
+      <div><p class="kick">Reabastecidos</p><h2>Seus favoritos estão de volta! 🔥</h2><p>Os produtos que você já conhece estão disponíveis novamente.</p>
+      <button class="cta" data-ir="sec-volta">Ver reabastecidos →</button></div><div class="fotos">${v.slice(0, 4).map(mini).join("")}</div></div>`);
+    if (!slides.length) return "";
+    const dots = slides.length > 1 ? `<div class="dots">${slides.map((_, i) => `<button data-slide="${i}" aria-label="Banner ${i + 1} de ${slides.length}"${i ? "" : ' aria-current="true"'}><i></i></button>`).join("")}</div>` : "";
+    return `<section class="hero" aria-label="Destaques"><div class="hero-track" id="hero" tabindex="-1">${slides.join("")}</div>${dots}</section>`;
+  }
+  let heroTimer = null;
+  function ligarHero() {
+    clearInterval(heroTimer);
+    const t = $("#hero"); if (!t) return;
+    const dots = [...document.querySelectorAll(".dots button")];
+    const atual = () => Math.round(t.scrollLeft / t.clientWidth);
+    t.addEventListener("scroll", () => { const i = atual(); dots.forEach((d, j) => d.setAttribute("aria-current", String(i === j))); }, { passive: true });
+    if (dots.length < 2 || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let pausa = false;
+    const parar = () => { pausa = true; };
+    ["pointerdown", "touchstart", "focusin", "mouseenter"].forEach(ev => t.addEventListener(ev, parar, { passive: true }));
+    heroTimer = setInterval(() => { if (!pausa && !document.hidden && t.isConnected) t.scrollTo({ left: ((atual() + 1) % dots.length) * t.clientWidth, behavior: "smooth" }); }, 5500);
   }
 
   function cats() {
@@ -360,7 +456,8 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
       <h3 id="sheet-t">${esc(p.nome)}</h3>
       <div class="meta">${p.marca ? `<span>${esc(p.marca)}</span>` : ""}<span>${esc(p.apresentacao)}</span><span>${esc(p.categoria)}</span></div>
       ${preco}
-      <p class="hint">Pegue na prateleira e pague no totem: Pix, débito, crédito ou aproximação.</p>`);
+      <p class="hint">${p.disp === false ? "<b>Esgotado no totem agora.</b> Este produto volta a aparecer como disponível quando for reabastecido."
+        : "Pegue na prateleira e pague no totem: Pix, débito, crédito ou aproximação."}</p>`);
   }
   function listaCats() {
     abrir(`<h3 id="sheet-t">Categorias</h3><div class="cats-list">${catsUsadas().map(c =>
@@ -392,6 +489,8 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
     if (t.id === "limpar") { q.value = ""; estado.busca = ""; t.hidden = true; render(); q.focus(); return; }
     if (t.id === "demo") { demo = !demo; renderRodape(); render(); toast(demo ? "Mostrando exemplos de ofertas e destaques" : "Exemplos ocultos"); return; }
     if (t.dataset.sku) return detalhe(t.dataset.sku);
+    if (t.dataset.slide) { const h = $("#hero"); h.scrollTo({ left: +t.dataset.slide * h.clientWidth, behavior: "smooth" }); return; }
+    if (t.dataset.ir) { document.getElementById(t.dataset.ir)?.scrollIntoView({ behavior: "smooth" }); return; }
     if ("cat" in t.dataset) { if (!sheet.hidden) fechar(); estado = { cat: t.dataset.cat, busca: "", tela: "inicio" }; q.value = ""; render();
       document.querySelector(`#cats .cat[data-cat="${CSS.escape(t.dataset.cat)}"]`)?.scrollIntoView({ inline: "center", block: "nearest" });
       window.scrollTo({ top: $(".hello").offsetTop + $(".hello").offsetHeight }); return; }
@@ -403,9 +502,11 @@ footer{color:var(--muted);font-size:12.5px;padding-block:6px 10px;display:grid;g
 
   function renderRodape() {
     $("#rodape").innerHTML = (CFG.prototipo ? `<div class="demo"><span>${demo ? "Exemplos ligados: ofertas, mais procurados e novidades marcados como <b>EXEMPLO</b>." : "Protótipo: ainda não há ofertas cadastradas."}</span><button id="demo" type="button">${demo ? "Ocultar exemplos" : "Ver exemplos"}</button></div>` : "")
+      + (estoque ? `<span class="estq"><i></i>Disponibilidade conforme o estoque do totem, atualizado em ${quando(estoque.atualizado)}.</span>` : "")
       + `<span>Égua do Mercado · Praticidade no seu dia a dia. Preços sujeitos a alteração; vale o preço do totem.</span>`;
   }
+  const quando = s => { const d = new Date(s); return isNaN(d) ? "—" : d.toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }).replace(", ", " às "); };
 
-  carregar().then(l => { produtos = limpar(l); cats(); renderRodape(); render(); });
+  Promise.all([carregar(), carregarEstoque()]).then(([l, e]) => { estoque = e; produtos = limpar(l); cats(); renderRodape(); render(); });
 })();
 </script>

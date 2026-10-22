@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-20",
+ "atualizado": "2026-10-22",
  "produtos": [
   {
    "sku": "agua-crystal-gas-500",
@@ -14,7 +14,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 1
+   "ordem": 1,
+   "reabastecido_em": ""
   },
   {
    "sku": "coca-cola-lata-220",
@@ -29,7 +30,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 2
+   "ordem": 2,
+   "reabastecido_em": "21/10/2026"
   },
   {
    "sku": "coca-cola-zero-lata-220",
@@ -44,7 +46,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 3
+   "ordem": 3,
+   "reabastecido_em": "21/10/2026"
   },
   {
    "sku": "fanta-laranja-lata-350",
@@ -59,7 +62,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 4
+   "ordem": 4,
+   "reabastecido_em": ""
   },
   {
    "sku": "guarana-antarctica-lata-350",
@@ -74,7 +78,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 5
+   "ordem": 5,
+   "reabastecido_em": ""
   },
   {
    "sku": "nescau-pronto-270",
@@ -89,7 +94,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 6
+   "ordem": 6,
+   "reabastecido_em": ""
   },
   {
    "sku": "toddynho-200",
@@ -104,7 +110,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 7
+   "ordem": 7,
+   "reabastecido_em": ""
   },
   {
    "sku": "3coracoes-baunilha-250",
@@ -119,7 +126,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 8
+   "ordem": 8,
+   "reabastecido_em": ""
   },
   {
    "sku": "3coracoes-chocolate-250",
@@ -134,7 +142,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 9
+   "ordem": 9,
+   "reabastecido_em": ""
   },
   {
    "sku": "3coracoes-napolitano-250",
@@ -149,7 +158,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 10
+   "ordem": 10,
+   "reabastecido_em": ""
   },
   {
    "sku": "marata-abacaxi-200",
@@ -164,7 +174,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 11
+   "ordem": 11,
+   "reabastecido_em": ""
   },
   {
    "sku": "marata-morango-200",
@@ -179,7 +190,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 12
+   "ordem": 12,
+   "reabastecido_em": ""
   },
   {
    "sku": "dafruta-laranja-200",
@@ -194,7 +206,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 13
+   "ordem": 13,
+   "reabastecido_em": ""
   },
   {
    "sku": "monster-473",
@@ -209,7 +222,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 14
+   "ordem": 14,
+   "reabastecido_em": ""
   },
   {
    "sku": "red-bull-250",
@@ -224,7 +238,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 15
+   "ordem": 15,
+   "reabastecido_em": ""
   },
   {
    "sku": "pringles-original-35",
@@ -239,7 +254,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 16
+   "ordem": 16,
+   "reabastecido_em": ""
   },
   {
    "sku": "pringles-original-latao",
@@ -254,7 +270,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 17
+   "ordem": 17,
+   "reabastecido_em": ""
   },
   {
    "sku": "crony-35",
@@ -269,7 +286,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 18
+   "ordem": 18,
+   "reabastecido_em": ""
   },
   {
    "sku": "refinata-picanha-40",
@@ -284,7 +302,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 19
+   "ordem": 19,
+   "reabastecido_em": ""
   },
   {
    "sku": "doritos-nacho-32",
@@ -299,7 +318,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 20
+   "ordem": 20,
+   "reabastecido_em": ""
   },
   {
    "sku": "cheetos-lua-35",
@@ -314,7 +334,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 21
+   "ordem": 21,
+   "reabastecido_em": ""
   },
   {
    "sku": "cheetos-bola-35",
@@ -329,7 +350,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 22
+   "ordem": 22,
+   "reabastecido_em": ""
   },
   {
    "sku": "cheetos-onda-40",
@@ -344,7 +366,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 23
+   "ordem": 23,
+   "reabastecido_em": ""
   },
   {
    "sku": "fandangos-queijo-35",
@@ -359,7 +382,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 24
+   "ordem": 24,
+   "reabastecido_em": ""
   },
   {
    "sku": "torcida-bacon-35",
@@ -374,7 +398,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 25
+   "ordem": 25,
+   "reabastecido_em": ""
   },
   {
    "sku": "torcida-churrasco-35",
@@ -389,7 +414,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 26
+   "ordem": 26,
+   "reabastecido_em": ""
   },
   {
    "sku": "pipoca-mariza-manteiga-100",
@@ -404,7 +430,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 27
+   "ordem": 27,
+   "reabastecido_em": ""
   },
   {
    "sku": "pipoca-mariza-queijo-100",
@@ -419,7 +446,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 28
+   "ordem": 28,
+   "reabastecido_em": ""
   },
   {
    "sku": "pipoca-mariza-natural-100",
@@ -434,7 +462,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 29
+   "ordem": 29,
+   "reabastecido_em": ""
   },
   {
    "sku": "mini-oreo-35",
@@ -449,7 +478,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 30
+   "ordem": 30,
+   "reabastecido_em": ""
   },
   {
    "sku": "negresco-morango-90",
@@ -464,7 +494,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 31
+   "ordem": 31,
+   "reabastecido_em": ""
   },
   {
    "sku": "passatempo-morango-130",
@@ -479,7 +510,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 32
+   "ordem": 32,
+   "reabastecido_em": ""
   },
   {
    "sku": "bono-chocolate-90",
@@ -494,7 +526,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 33
+   "ordem": 33,
+   "reabastecido_em": ""
   },
   {
    "sku": "cookie-garoto-crocante",
@@ -509,7 +542,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 34
+   "ordem": 34,
+   "reabastecido_em": ""
   },
   {
    "sku": "club-social-integral-288",
@@ -524,7 +558,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 35
+   "ordem": 35,
+   "reabastecido_em": ""
   },
   {
    "sku": "cereal-nescau-120",
@@ -539,7 +574,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 36
+   "ordem": 36,
+   "reabastecido_em": ""
   },
   {
    "sku": "nutry-banana-22",
@@ -554,7 +590,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 37
+   "ordem": 37,
+   "reabastecido_em": ""
   },
   {
    "sku": "crunch-garoto-80",
@@ -569,7 +606,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 38
+   "ordem": 38,
+   "reabastecido_em": ""
   },
   {
    "sku": "crunch-nestle-80",
@@ -584,7 +622,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 39
+   "ordem": 39,
+   "reabastecido_em": ""
   },
   {
    "sku": "kitkat-dark-41",
@@ -599,7 +638,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 40
+   "ordem": 40,
+   "reabastecido_em": ""
   },
   {
    "sku": "bis-original-100",
@@ -614,7 +654,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 41
+   "ordem": 41,
+   "reabastecido_em": ""
   },
   {
    "sku": "halls-morango",
@@ -629,7 +670,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 42
+   "ordem": 42,
+   "reabastecido_em": ""
   },
   {
    "sku": "trident",
@@ -644,7 +686,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 43
+   "ordem": 43,
+   "reabastecido_em": ""
   },
   {
    "sku": "cup-noodles-carne-69",
@@ -659,7 +702,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 44
+   "ordem": 44,
+   "reabastecido_em": ""
   },
   {
    "sku": "nissin-carne-85",
@@ -674,7 +718,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 45
+   "ordem": 45,
+   "reabastecido_em": ""
   },
   {
    "sku": "nissin-galinha-caipira-85",
@@ -689,7 +734,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 46
+   "ordem": 46,
+   "reabastecido_em": ""
   },
   {
    "sku": "lasanha-sadia-bolonhesa-350",
@@ -704,7 +750,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 47
+   "ordem": 47,
+   "reabastecido_em": ""
   },
   {
    "sku": "fettuccine-perdigao-bolonhesa",
@@ -719,7 +766,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 48
+   "ordem": 48,
+   "reabastecido_em": ""
   },
   {
    "sku": "sanduiche-sadia-frango-145",
@@ -734,7 +782,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 49
+   "ordem": 49,
+   "reabastecido_em": ""
   },
   {
    "sku": "hot-hit-seara-xbacon-145",
@@ -749,7 +798,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 50
+   "ordem": 50,
+   "reabastecido_em": ""
   },
   {
    "sku": "pizza-beni-calabresa-110",
@@ -764,7 +814,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 51
+   "ordem": 51,
+   "reabastecido_em": ""
   },
   {
    "sku": "nuggets-275",
@@ -779,7 +830,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 52
+   "ordem": 52,
+   "reabastecido_em": ""
   },
   {
    "sku": "tirinha-frango-aurora-275",
@@ -794,7 +846,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 53
+   "ordem": 53,
+   "reabastecido_em": ""
   },
   {
    "sku": "hamburguer-perdigao-56",
@@ -809,7 +862,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 54
+   "ordem": 54,
+   "reabastecido_em": ""
   },
   {
    "sku": "pao-de-queijo-minas-400",
@@ -824,7 +878,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 55
+   "ordem": 55,
+   "reabastecido_em": ""
   },
   {
    "sku": "batata-bem-brasil-400",
@@ -839,7 +894,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 56
+   "ordem": 56,
+   "reabastecido_em": ""
   },
   {
    "sku": "danoninho-70",
@@ -854,7 +910,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 57
+   "ordem": 57,
+   "reabastecido_em": ""
   },
   {
    "sku": "iogurte-nestle-morango-170",
@@ -869,7 +926,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 58
+   "ordem": 58,
+   "reabastecido_em": ""
   },
   {
    "sku": "flambynho-morango-100",
@@ -884,7 +942,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 59
+   "ordem": 59,
+   "reabastecido_em": ""
   },
   {
    "sku": "requeijao-tirolez-200",
@@ -899,7 +958,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 60
+   "ordem": 60,
+   "reabastecido_em": ""
   },
   {
    "sku": "margarina-qualy-sal-250",
@@ -914,7 +974,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 61
+   "ordem": 61,
+   "reabastecido_em": ""
   },
   {
    "sku": "leite-em-po-200",
@@ -929,7 +990,8 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 62
+   "ordem": 62,
+   "reabastecido_em": ""
   },
   {
    "sku": "ovos-2un",
@@ -944,7 +1006,376 @@
    "mais_procurado": "",
    "novidade_desde": "",
    "ativo": "S",
-   "ordem": 63
+   "ordem": 63,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "moving-protein-310",
+   "nome": "Moving Protein Booster",
+   "marca": "Moving",
+   "apresentacao": "310 ml",
+   "categoria": "Bebidas",
+   "preco": "18,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/moving-protein-310.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 64,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "banana-chips-50",
+   "nome": "Banana Chips",
+   "marca": "",
+   "apresentacao": "50 g",
+   "categoria": "Snacks",
+   "preco": "5,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/banana-chips-50.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 65,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "flay-queijo-40",
+   "nome": "Flay Sabor Queijo",
+   "marca": "Parati",
+   "apresentacao": "40 g",
+   "categoria": "Snacks",
+   "preco": "3,75",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/flay-queijo-40.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 66,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "oreo-original-18",
+   "nome": "Oreo Original",
+   "marca": "Oreo",
+   "apresentacao": "18 g",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "2,50",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/oreo-original-18.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 67,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "cookies-nestle-60",
+   "nome": "Cookies Chocolate",
+   "marca": "Nestlé",
+   "apresentacao": "60 g",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "5,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/cookies-nestle-60.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 68,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "bolinho-bauducco-duplo-chocolate-40",
+   "nome": "Bolinho Duplo Chocolate",
+   "marca": "Bauducco",
+   "apresentacao": "40 g",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "3,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/bolinho-bauducco-duplo-chocolate-40.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 69,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "rancheiro-rosquinha-coco-300",
+   "nome": "Rosquinha de Coco",
+   "marca": "Rancheiro",
+   "apresentacao": "300 g",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "7,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/rancheiro-rosquinha-coco-300.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 70,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "jasmine-rosquinha-laranja-cenoura",
+   "nome": "Rosquinhas Integrais Laranja e Cenoura",
+   "marca": "Jasmine",
+   "apresentacao": "Pacote",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "14,75",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/jasmine-rosquinha-laranja-cenoura.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 71,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "jasmine-sousweet-banana-aveia-135",
+   "nome": "Biscoito Integral SOUsweet Banana e Aveia",
+   "marca": "Jasmine",
+   "apresentacao": "135 g",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "6,50",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/jasmine-sousweet-banana-aveia-135.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 72,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "sonho-de-valsa",
+   "nome": "Bombom Sonho de Valsa",
+   "marca": "Lacta",
+   "apresentacao": "Unidade",
+   "categoria": "Chocolates & Doces",
+   "preco": "1,50",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/sonho-de-valsa.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 73,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "nutella",
+   "nome": "Nutella",
+   "marca": "Ferrero",
+   "apresentacao": "Pote",
+   "categoria": "Chocolates & Doces",
+   "preco": "15,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/nutella.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 74,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "coxinha-asa-ave-serra-600",
+   "nome": "Coxinha da Asa Temperada Air Fryer",
+   "marca": "Ave Serra",
+   "apresentacao": "600 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "21,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/coxinha-asa-ave-serra-600.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 75,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "steak-frango-rezende-100",
+   "nome": "Steak de Frango",
+   "marca": "Rezende",
+   "apresentacao": "100 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "3,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/steak-frango-rezende-100.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 76,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "iogurte-duo-morango-120",
+   "nome": "Iogurte Duo Morango",
+   "marca": "Canto de Minas",
+   "apresentacao": "120 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "5,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/iogurte-duo-morango-120.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 77,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "pao-bauducco-fermentacao-390",
+   "nome": "Pão de Forma Fermentação Natural",
+   "marca": "Bauducco",
+   "apresentacao": "390 g",
+   "categoria": "Mercearia",
+   "preco": "10,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/pao-bauducco-fermentacao-390.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 78,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "colgate-tripla-acao-xtra-white",
+   "nome": "Creme Dental Tripla Ação Xtra White",
+   "marca": "Colgate",
+   "apresentacao": "Tubo",
+   "categoria": "Higiene & Cuidados",
+   "preco": "6,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/colgate-tripla-acao-xtra-white.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 79,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "escova-colgate-classic-clean",
+   "nome": "Escova de Dentes Classic Clean",
+   "marca": "Colgate",
+   "apresentacao": "Macia",
+   "categoria": "Higiene & Cuidados",
+   "preco": "8,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/escova-colgate-classic-clean.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 80,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "always-basic-10",
+   "nome": "Absorvente Always Basic",
+   "marca": "Always",
+   "apresentacao": "10 unidades",
+   "categoria": "Higiene & Cuidados",
+   "preco": "6,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/always-basic-10.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "S",
+   "ordem": 81,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "cassini-polvilho",
+   "nome": "Biscoito de Polvilho",
+   "marca": "Cassini",
+   "apresentacao": "Pacote",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "N",
+   "ordem": 82,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "cream-cracker-mammamia",
+   "nome": "Cream Cracker",
+   "marca": "Mammamia",
+   "apresentacao": "Pacote",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "N",
+   "ordem": 83,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "kinder-joy",
+   "nome": "Kinder Joy",
+   "marca": "Kinder",
+   "apresentacao": "Unidade",
+   "categoria": "Chocolates & Doces",
+   "preco": "",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "N",
+   "ordem": 84,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "iogurte-nestle-zero-morango-170",
+   "nome": "Iogurte Zero Morango",
+   "marca": "Nestlé",
+   "apresentacao": "170 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "N",
+   "ordem": 85,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "pao-de-queijo-300",
+   "nome": "Pão de Queijo Tradicional",
+   "marca": "",
+   "apresentacao": "300 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "",
+   "mais_procurado": "",
+   "novidade_desde": "21/10/2026",
+   "ativo": "N",
+   "ordem": 86,
+   "reabastecido_em": ""
   }
  ]
 }

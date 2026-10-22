@@ -1,0 +1,333 @@
+{
+ "atualizado": "2026-10-22T14:25:08+00:00",
+ "fonte": "https://catalogo.ton.com.br/eguadomercado",
+ "itens": {
+  "3coracoes-baunilha-250": {
+   "estoque": 1,
+   "preco_ton": 10.0
+  },
+  "3coracoes-chocolate-250": {
+   "estoque": 2,
+   "preco_ton": 10.0
+  },
+  "3coracoes-napolitano-250": {
+   "estoque": 3,
+   "preco_ton": 10.0
+  },
+  "agua-crystal-gas-500": {
+   "estoque": 11,
+   "preco_ton": 3.5
+  },
+  "always-basic-10": {
+   "estoque": 1,
+   "preco_ton": 6.0
+  },
+  "banana-chips-50": {
+   "estoque": 3,
+   "preco_ton": 5.0
+  },
+  "batata-bem-brasil-400": {
+   "estoque": 3,
+   "preco_ton": 10.5
+  },
+  "bis-original-100": {
+   "estoque": 3,
+   "preco_ton": 12.5
+  },
+  "bolinho-bauducco-duplo-chocolate-40": {
+   "estoque": 4,
+   "preco_ton": 3.0
+  },
+  "bono-chocolate-90": {
+   "estoque": 0,
+   "preco_ton": 5.0
+  },
+  "cereal-nescau-120": {
+   "estoque": 3,
+   "preco_ton": 8.0
+  },
+  "cheetos-bola-35": {
+   "estoque": 3,
+   "preco_ton": 6.5
+  },
+  "cheetos-lua-35": {
+   "estoque": 3,
+   "preco_ton": 6.0
+  },
+  "cheetos-onda-40": {
+   "estoque": 4,
+   "preco_ton": 5.0
+  },
+  "club-social-integral-288": {
+   "estoque": 12,
+   "preco_ton": 2.5
+  },
+  "coca-cola-lata-220": {
+   "estoque": 12,
+   "preco_ton": 4.0
+  },
+  "coca-cola-zero-lata-220": {
+   "estoque": 6,
+   "preco_ton": 4.0
+  },
+  "colgate-tripla-acao-xtra-white": {
+   "estoque": 2,
+   "preco_ton": 6.0
+  },
+  "cookie-garoto-crocante": {
+   "estoque": 0,
+   "preco_ton": 4.5
+  },
+  "cookies-nestle-60": {
+   "estoque": 1,
+   "preco_ton": 5.0
+  },
+  "coxinha-asa-ave-serra-600": {
+   "estoque": 2,
+   "preco_ton": 21.0
+  },
+  "crony-35": {
+   "estoque": 0,
+   "preco_ton": 5.5
+  },
+  "crunch-garoto-80": {
+   "estoque": 0,
+   "preco_ton": 9.5
+  },
+  "crunch-nestle-80": {
+   "estoque": 0,
+   "preco_ton": 11.0
+  },
+  "cup-noodles-carne-69": {
+   "estoque": 2,
+   "preco_ton": 6.0
+  },
+  "dafruta-laranja-200": {
+   "estoque": 3,
+   "preco_ton": 2.0
+  },
+  "danoninho-70": {
+   "estoque": 3,
+   "preco_ton": 5.5
+  },
+  "doritos-nacho-32": {
+   "estoque": 1,
+   "preco_ton": 7.0
+  },
+  "escova-colgate-classic-clean": {
+   "estoque": 2,
+   "preco_ton": 8.0
+  },
+  "fandangos-queijo-35": {
+   "estoque": 2,
+   "preco_ton": 4.7
+  },
+  "fanta-laranja-lata-350": {
+   "estoque": 0,
+   "preco_ton": 4.0
+  },
+  "fettuccine-perdigao-bolonhesa": {
+   "estoque": 3,
+   "preco_ton": 11.0
+  },
+  "flambynho-morango-100": {
+   "estoque": 3,
+   "preco_ton": 4.5
+  },
+  "flay-queijo-40": {
+   "estoque": 2,
+   "preco_ton": 3.75
+  },
+  "guarana-antarctica-lata-350": {
+   "estoque": 3,
+   "preco_ton": 4.0
+  },
+  "halls-morango": {
+   "estoque": 17,
+   "preco_ton": 2.0
+  },
+  "hamburguer-perdigao-56": {
+   "estoque": 3,
+   "preco_ton": 2.0
+  },
+  "hot-hit-seara-xbacon-145": {
+   "estoque": 0,
+   "preco_ton": 12.0
+  },
+  "iogurte-duo-morango-120": {
+   "estoque": 2,
+   "preco_ton": 5.0
+  },
+  "iogurte-nestle-morango-170": {
+   "estoque": 3,
+   "preco_ton": 5.5
+  },
+  "jasmine-rosquinha-laranja-cenoura": {
+   "estoque": 2,
+   "preco_ton": 14.75
+  },
+  "jasmine-sousweet-banana-aveia-135": {
+   "estoque": 2,
+   "preco_ton": 6.5
+  },
+  "kitkat-dark-41": {
+   "estoque": 2,
+   "preco_ton": 6.0
+  },
+  "lasanha-sadia-bolonhesa-350": {
+   "estoque": 1,
+   "preco_ton": 19.0
+  },
+  "leite-em-po-200": {
+   "estoque": 2,
+   "preco_ton": 8.0
+  },
+  "marata-abacaxi-200": {
+   "estoque": 3,
+   "preco_ton": 3.0
+  },
+  "marata-morango-200": {
+   "estoque": 3,
+   "preco_ton": 3.0
+  },
+  "margarina-qualy-sal-250": {
+   "estoque": 3,
+   "preco_ton": 8.5
+  },
+  "mini-oreo-35": {
+   "estoque": 9,
+   "preco_ton": 5.0
+  },
+  "monster-473": {
+   "estoque": 6,
+   "preco_ton": 14.5
+  },
+  "moving-protein-310": {
+   "estoque": 2,
+   "preco_ton": 18.0
+  },
+  "negresco-morango-90": {
+   "estoque": 1,
+   "preco_ton": 5.0
+  },
+  "nescau-pronto-270": {
+   "estoque": 2,
+   "preco_ton": 9.0
+  },
+  "nissin-carne-85": {
+   "estoque": 3,
+   "preco_ton": 3.5
+  },
+  "nissin-galinha-caipira-85": {
+   "estoque": 2,
+   "preco_ton": 3.5
+  },
+  "nuggets-275": {
+   "estoque": 3,
+   "preco_ton": 11.0
+  },
+  "nutella": {
+   "estoque": 2,
+   "preco_ton": 15.0
+  },
+  "nutry-banana-22": {
+   "estoque": 18,
+   "preco_ton": 3.0
+  },
+  "oreo-original-18": {
+   "estoque": 4,
+   "preco_ton": 2.5
+  },
+  "ovos-2un": {
+   "estoque": 7,
+   "preco_ton": 2.0
+  },
+  "pao-bauducco-fermentacao-390": {
+   "estoque": 1,
+   "preco_ton": 10.0
+  },
+  "pao-de-queijo-minas-400": {
+   "estoque": 1,
+   "preco_ton": 13.5
+  },
+  "passatempo-morango-130": {
+   "estoque": 2,
+   "preco_ton": 5.5
+  },
+  "pipoca-mariza-manteiga-100": {
+   "estoque": 3,
+   "preco_ton": 3.0
+  },
+  "pipoca-mariza-natural-100": {
+   "estoque": 3,
+   "preco_ton": 3.0
+  },
+  "pipoca-mariza-queijo-100": {
+   "estoque": 3,
+   "preco_ton": 3.0
+  },
+  "pizza-beni-calabresa-110": {
+   "estoque": 3,
+   "preco_ton": 7.5
+  },
+  "pringles-original-35": {
+   "estoque": 0,
+   "preco_ton": 9.0
+  },
+  "pringles-original-latao": {
+   "estoque": 0,
+   "preco_ton": 12.0
+  },
+  "rancheiro-rosquinha-coco-300": {
+   "estoque": 2,
+   "preco_ton": 7.0
+  },
+  "red-bull-250": {
+   "estoque": 1,
+   "preco_ton": 13.0
+  },
+  "refinata-picanha-40": {
+   "estoque": 0,
+   "preco_ton": 6.5
+  },
+  "requeijao-tirolez-200": {
+   "estoque": 2,
+   "preco_ton": 12.5
+  },
+  "sanduiche-sadia-frango-145": {
+   "estoque": 2,
+   "preco_ton": 13.5
+  },
+  "sonho-de-valsa": {
+   "estoque": 50,
+   "preco_ton": 1.5
+  },
+  "steak-frango-rezende-100": {
+   "estoque": 0,
+   "preco_ton": 3.0
+  },
+  "tirinha-frango-aurora-275": {
+   "estoque": 2,
+   "preco_ton": 11.0
+  },
+  "toddynho-200": {
+   "estoque": 5,
+   "preco_ton": 4.0
+  },
+  "torcida-bacon-35": {
+   "estoque": 3,
+   "preco_ton": 3.0
+  },
+  "torcida-churrasco-35": {
+   "estoque": 2,
+   "preco_ton": 3.0
+  },
+  "trident": {
+   "estoque": 13,
+   "preco_ton": 3.0
+  }
+ },
+ "sem_mapa": [
+  "Pringles Original 35g"
+ ]
+}

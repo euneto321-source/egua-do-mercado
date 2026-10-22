@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banners Égua do Mercado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap">
+<style>
+/* Peças de divulgação. Uso: banners.html?b=novos|destaque|volta&f=feed|story — renderizadas em PNG por tools/gerar_banners.py.
+   Só entram produtos com estoque > 0 no totem (data/estoque.json) e preço da planilha (data/produtos.json). */
+:root{--acai:#3A0739;--acai-2:#5A1663;--bandeira:#D62828;--laranja:#FF7A00;--creme:#FFF5E6;--grafite:#1F1F1F;
+  --f-display:"Baloo 2","Arial Rounded MT Bold",system-ui,sans-serif;--f-body:"Poppins",system-ui,sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;background:#222}
+.peca{width:1080px;height:1350px;position:relative;overflow:hidden;color:#fff;font-family:var(--f-body);display:flex;flex-direction:column;
+  padding:64px 64px 56px;background:var(--acai)}
+.peca.story{height:1920px;padding:120px 64px 110px}
+.peca.destaque{background:var(--acai-2)}
+.peca.volta{background:var(--bandeira)}
+.peca::before{content:"";position:absolute;width:760px;height:760px;border-radius:50%;right:-300px;top:-280px;background:rgba(255,122,0,.2)}
+.peca.volta::before{background:rgba(255,255,255,.12)}
+.peca::after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;left:-260px;bottom:-200px;background:rgba(255,255,255,.05)}
+.peca > *{position:relative;z-index:1}
+.logo{height:118px;width:auto;align-self:flex-start;margin-left:-10px;mix-blend-mode:lighten}
+.volta .logo{mix-blend-mode:normal;background:var(--acai);border-radius:22px;padding:6px 14px}
+.kick{margin:34px 0 0;font-weight:700;font-size:30px;letter-spacing:.12em;text-transform:uppercase;color:#FFB15C}
+.volta .kick{color:#FFE3C2}
+h1{font-family:var(--f-display);font-weight:800;font-size:112px;line-height:.92;margin:10px 0 18px;letter-spacing:-.01em}
+h1 .emo{font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-size:.8em}
+.sub{font-size:34px;line-height:1.3;margin:0;max-width:32ch;opacity:.95}
+.feed h1{font-size:96px}
+.feed .logo{height:100px}
+.feed .kick{margin-top:26px}
+/* a grade ocupa o espaço que sobra; as fotos encolhem para caber */
+.grade{flex:1;min-height:0;margin-top:40px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:minmax(0,1fr);gap:26px}
+.story .grade{gap:30px;margin-top:60px}
+.item{background:#fff;border-radius:30px;overflow:hidden;color:var(--grafite);box-shadow:0 18px 40px rgba(0,0,0,.28);display:flex;flex-direction:column;min-height:0}
+.item img{flex:1;min-height:0;width:100%;height:100%;object-fit:contain;display:block;background:#fff;padding:14px 14px 0}
+.item .tx{padding:4px 22px 22px;display:flex;flex-direction:column;gap:4px}
+.item b{font-size:25px;line-height:1.2;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.4em}
+.item small{font-size:20px;color:#6B5A63}
+.preco{font-family:var(--f-display);font-weight:800;font-size:54px;line-height:1;color:var(--bandeira)}
+.preco span{font-size:.5em;margin-right:4px}
+.novos .item:nth-child(3n+1){transform:rotate(-2deg)} .novos .item:nth-child(3n+3){transform:rotate(2deg)}
+.novos .item b{min-height:0}
+.volta .grade{grid-template-columns:repeat(2,minmax(0,1fr));gap:34px;padding:0 40px}
+.volta.story .grade{padding:40px 40px 0}
+.rodape{margin-top:46px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:26px;font-weight:600}
+.story .rodape{margin-top:70px}
+.selo{display:inline-flex;align-items:center;gap:14px;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.25);border-radius:999px;padding:14px 26px}
+.selo i{width:18px;height:18px;border-radius:50%;background:#3DDC84;box-shadow:0 0 0 6px rgba(61,220,132,.25)}
+.pagto{opacity:.9;font-weight:500;text-align:right}
+.vazio{font-size:40px;margin:auto}
+</style>
+</head>
+<body>
+<div id="raiz"></div>
+<script>
+(async () => {
+  const q = new URLSearchParams(location.search), b = q.get("b") || "novos", f = q.get("f") || "feed";
+  const [prod, est] = await Promise.all([fetch("../data/produtos.json").then(r => r.json()), fetch("../data/estoque.json").then(r => r.json())]);
+  const num = v => parseFloat(String(v || "").replace(",", "."));
+  const data = s => { const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(s || ""); return m ? new Date(+m[3], m[2] - 1, +m[1]) : null; };
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const recente = s => { const d = data(s); return !!d && d <= hoje && (hoje - d) / 864e5 <= 14; };
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const brl = v => v.toFixed(2).replace(".", ",");
+  // disponível = ativo, com preço, com foto e estoque > 0 no totem
+  const ok = prod.produtos.filter(p => p.ativo === "S" && num(p.preco) > 0 && p.foto && (est.itens[p.sku] || {}).estoque > 0)
+    .sort((a, b) => num(a.ordem) - num(b.ordem));
+  const variados = (l, n) => { const r = [], vis = new Set(); for (const p of l) if (!vis.has(p.categoria)) { vis.add(p.categoria); r.push(p); }
+    for (const p of l) if (!r.includes(p)) r.push(p); return r.slice(0, n); };
+  const novos = ok.filter(p => recente(p.novidade_desde)), volta = ok.filter(p => recente(p.reabastecido_em) && !recente(p.novidade_desde));
+  const n = f === "story" ? 9 : 6;
+  const cfg = {
+    novos: { kick: "Acabou de chegar", h1: 'Chegaram novidades! <span class="emo">🛒</span>', sub: "Conheça os novos produtos disponíveis no nosso minimercado 24h.",
+      itens: variados(novos, n), preco: false },
+    destaque: { kick: "Novos em destaque", h1: "Escolha, pague e leve.", sub: "Os novos produtos do Égua do Mercado já estão no totem.",
+      itens: variados(novos.slice().reverse(), n), preco: true },
+    volta: { kick: "Reabastecidos", h1: 'Seus favoritos estão de volta! <span class="emo">🔥</span>', sub: "Os produtos que você já conhece estão disponíveis novamente.",
+      itens: volta.slice(0, f === "story" ? 4 : 2), preco: true }
+  }[b];
+  const item = p => `<div class="item"><img src="../${esc(p.foto)}" alt=""><div class="tx"><b>${esc(p.nome)}</b>${cfg.preco
+    ? `<small>${esc([p.marca, p.apresentacao].filter(Boolean).join(" · "))}</small><span class="preco"><span>R$</span>${brl(num(p.preco))}</span>` : ""}</div></div>`;
+  document.getElementById("raiz").innerHTML = `<section class="peca ${b} ${f}" data-skus="${cfg.itens.map(p => p.sku).join(",")}">
+    <img class="logo" src="../img/marca/logo-horizontal.jpg" alt="Égua do Mercado 24 horas">
+    <p class="kick">${cfg.kick}</p><h1>${cfg.h1}</h1><p class="sub">${cfg.sub}</p>
+    ${cfg.itens.length ? `<div class="grade">${cfg.itens.map(item).join("")}</div>` : `<p class="vazio">Sem produtos disponíveis para esta peça.</p>`}
+    <div class="rodape"><span class="selo"><i></i>Aberto 24 horas</span><span class="pagto">Pix · débito · crédito · aproximação</span></div></section>`;
+  await document.fonts.ready;
+  await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  document.body.dataset.pronto = "1";
+})();
+</script>
+</body>
+</html>

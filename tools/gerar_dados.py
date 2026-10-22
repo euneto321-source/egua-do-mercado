@@ -87,10 +87,37 @@ P = [
     # Mercearia
     ("leite-em-po-200", "Leite em Pó Integral", "Camponesa", "200 g", "Mercearia", 8.00, "01a15093-fbf3-7331-8a1b-94f53cd2bbbe.jpeg"),
     ("ovos-2un", "Ovos", "", "2 unidades", "Mercearia", 2.00, "01a156a2-1dfe-77ea-8063-e36ef2b2af6d.png"),
+    # 3ª compra (cupom 21/10/2026): preço e foto do cadastro Ton de cada produto
+    ("moving-protein-310", "Moving Protein Booster", "Moving", "310 ml", "Bebidas", 18.00, "01a1638a-a963-7aa7-963e-ef84b5d44540.png"),
+    ("banana-chips-50", "Banana Chips", "", "50 g", "Snacks", 5.00, "01a16377-984d-776b-8518-18559dfdfda1.png"),
+    ("flay-queijo-40", "Flay Sabor Queijo", "Parati", "40 g", "Snacks", 3.75, "01a16379-72d7-7617-97d6-6023924798e5.png"),
+    ("oreo-original-18", "Oreo Original", "Oreo", "18 g", "Biscoitos & Cereais", 2.50, "01a16367-4880-73a8-bf99-b96813ef4a09.png"),
+    ("cookies-nestle-60", "Cookies Chocolate", "Nestlé", "60 g", "Biscoitos & Cereais", 5.00, "01a1636b-9ec5-7e9e-bffa-df7d2557e4bf.png"),
+    ("bolinho-bauducco-duplo-chocolate-40", "Bolinho Duplo Chocolate", "Bauducco", "40 g", "Biscoitos & Cereais", 3.00, "01a16364-d221-7413-9cdf-37b7e4630c55.png"),
+    ("rancheiro-rosquinha-coco-300", "Rosquinha de Coco", "Rancheiro", "300 g", "Biscoitos & Cereais", 7.00, "01a16376-585a-7af6-bd7e-7edc2a6f5e01.png"),
+    ("jasmine-rosquinha-laranja-cenoura", "Rosquinhas Integrais Laranja e Cenoura", "Jasmine", "Pacote", "Biscoitos & Cereais", 14.75, "01a16372-3e3c-7278-b7c9-0faa5f9f97cd.png"),
+    ("jasmine-sousweet-banana-aveia-135", "Biscoito Integral SOUsweet Banana e Aveia", "Jasmine", "135 g", "Biscoitos & Cereais", 6.50, "01a1636d-7b1d-74ef-8ff5-be4b0af66c88.png"),
+    ("sonho-de-valsa", "Bombom Sonho de Valsa", "Lacta", "Unidade", "Chocolates & Doces", 1.50, "01a1637b-c6a7-7187-82b2-b84ec4c5b3ce.png"),
+    ("nutella", "Nutella", "Ferrero", "Pote", "Chocolates & Doces", 15.00, "01a16369-a725-742f-9c72-5f1df10018c7.png"),
+    ("coxinha-asa-ave-serra-600", "Coxinha da Asa Temperada Air Fryer", "Ave Serra", "600 g", "Refrigerados & Congelados", 21.00, "01a16385-8894-78e1-913a-2bcdc6f6ae54.png"),
+    ("steak-frango-rezende-100", "Steak de Frango", "Rezende", "100 g", "Refrigerados & Congelados", 3.00, "01a16387-98a8-7bdb-a3c1-e4bf9ba4479c.png"),
+    ("iogurte-duo-morango-120", "Iogurte Duo Morango", "Canto de Minas", "120 g", "Refrigerados & Congelados", 5.00, "01a1638c-5ebc-7bc7-a020-1d582660b59d.png"),
+    ("pao-bauducco-fermentacao-390", "Pão de Forma Fermentação Natural", "Bauducco", "390 g", "Mercearia", 10.00, "01a16383-ce82-7908-8a50-bd6feb9159af.png"),
+    ("colgate-tripla-acao-xtra-white", "Creme Dental Tripla Ação Xtra White", "Colgate", "Tubo", "Higiene & Cuidados", 6.00, "01a16382-92b2-7854-a852-f3e07a7de35a.png"),
+    ("escova-colgate-classic-clean", "Escova de Dentes Classic Clean", "Colgate", "Macia", "Higiene & Cuidados", 8.00, "01a16380-341d-7b43-b56f-eec9571077c2.png"),
+    ("always-basic-10", "Absorvente Always Basic", "Always", "10 unidades", "Higiene & Cuidados", 6.00, "01a1637e-dc43-7b2b-a87f-63feba35c0d7.png"),
+    # comprados na 3ª compra, ainda sem cadastro (nem preço) na Ton: ficam ocultos até ter preço
+    ("cassini-polvilho", "Biscoito de Polvilho", "Cassini", "Pacote", "Biscoitos & Cereais", None, ""),
+    ("cream-cracker-mammamia", "Cream Cracker", "Mammamia", "Pacote", "Biscoitos & Cereais", None, ""),
+    ("kinder-joy", "Kinder Joy", "Kinder", "Unidade", "Chocolates & Doces", None, ""),
+    ("iogurte-nestle-zero-morango-170", "Iogurte Zero Morango", "Nestlé", "170 g", "Refrigerados & Congelados", None, ""),
+    ("pao-de-queijo-300", "Pão de Queijo Tradicional", "", "300 g", "Refrigerados & Congelados", None, ""),
 ]
+NOVIDADE = {sku: "21/10/2026" for sku, *_ in P[63:]}
+REABASTECIDO = {"coca-cola-lata-220": "21/10/2026", "coca-cola-zero-lata-220": "21/10/2026"}
 
 COLUNAS = ["sku", "nome", "marca", "apresentacao", "categoria", "preco", "preco_promo", "promo_ate",
-           "foto", "mais_procurado", "novidade_desde", "ativo", "ordem"]
+           "foto", "mais_procurado", "novidade_desde", "ativo", "ordem", "reabastecido_em"]
 
 
 def baixar_foto(sku, arq):
@@ -117,14 +144,15 @@ def main():
         elif arq:
             foto = f"img/{sku}.jpg"
         linhas.append({"sku": sku, "nome": nome, "marca": marca, "apresentacao": apres, "categoria": cat,
-                       "preco": f"{preco:.2f}".replace(".", ","), "preco_promo": "", "promo_ate": "", "foto": foto,
-                       "mais_procurado": "", "novidade_desde": "", "ativo": "S", "ordem": i})
+                       "preco": "" if preco is None else f"{preco:.2f}".replace(".", ","), "preco_promo": "", "promo_ate": "",
+                       "foto": foto, "mais_procurado": "", "novidade_desde": NOVIDADE.get(sku, ""),
+                       "ativo": "N" if preco is None else "S", "ordem": i, "reabastecido_em": REABASTECIDO.get(sku, "")})
     with open(os.path.join(RAIZ, "produtos.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLUNAS)
         w.writeheader()
         w.writerows(linhas)
     with open(os.path.join(RAIZ, "data", "produtos.json"), "w", encoding="utf-8") as f:
-        json.dump({"atualizado": "2026-10-20", "produtos": linhas}, f, ensure_ascii=False, indent=1)
+        json.dump({"atualizado": "2026-10-22", "produtos": linhas}, f, ensure_ascii=False, indent=1)
     if fontes:
         with open(os.path.join(RAIZ, "img", "FONTES.csv"), "w", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
