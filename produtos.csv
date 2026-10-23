@@ -15,10 +15,10 @@ dafruta-laranja-200,Suco de Laranja,Dafruta,200 ml,Bebidas,"2,00",,,img/dafruta-
 monster-473,Energético Monster,Monster,Lata 473 ml,Energéticos,"14,50",,,img/monster-473.jpg,,,S,14,
 red-bull-250,Energético Red Bull,Red Bull,Lata 250 ml,Energéticos,"13,00",,,img/red-bull-250.jpg,,,S,15,
 pringles-original-35,Pringles Original,Pringles,35 g,Snacks,"9,00",,,img/pringles-original-35.jpg,,,S,16,
-pringles-original-latao,Pringles Original Latão,Pringles,Lata grande,Snacks,"12,00",,,img/pringles-original-latao.jpg,,,S,17,
-crony-35,Batata Crony,Crony,35 g,Snacks,"5,50",,,img/crony-35.jpg,,,S,18,
+pringles-original-latao,Pringles Original Latão,Pringles,Lata grande,Snacks,"12,00",,,img/pringles-original-latao.jpg,,,S,17,23/10/2026
+crony-35,Batata Crony,Crony,35 g,Snacks,"5,50",,,img/crony-35.jpg,,,S,18,23/10/2026
 refinata-picanha-40,Batata Refinata Picanha,Refinata,40 g,Snacks,"6,50",,,img/refinata-picanha-40.jpg,,,S,19,
-doritos-nacho-32,Doritos Queijo Nacho,Doritos,32 g,Snacks,"7,00",,,img/doritos-nacho-32.jpg,,,S,20,
+doritos-nacho-32,Doritos Queijo Nacho,Doritos,32 g,Snacks,"7,00",,,img/doritos-nacho-32.jpg,,,S,20,23/10/2026
 cheetos-lua-35,Cheetos Lua,Cheetos,35 g,Snacks,"6,00",,,img/cheetos-lua-35.jpg,,,S,21,
 cheetos-bola-35,Cheetos Bola,Cheetos,35 g,Snacks,"6,50",,,img/cheetos-bola-35.jpg,,,S,22,
 cheetos-onda-40,Cheetos Onda,Cheetos,40 g,Snacks,"5,00",,,img/cheetos-onda-40.jpg,,,S,23,
@@ -31,9 +31,9 @@ pipoca-mariza-natural-100,Pipoca de Micro-ondas Natural,Mariza,100 g,Snacks,"3,0
 mini-oreo-35,Mini Oreo,Oreo,35 g,Biscoitos & Cereais,"5,00",,,img/mini-oreo-35.jpg,,,S,30,
 negresco-morango-90,Negresco Morango,Nestlé,90 g,Biscoitos & Cereais,"5,00",,,img/negresco-morango-90.jpg,,,S,31,
 passatempo-morango-130,Passatempo Morango,Nestlé,130 g,Biscoitos & Cereais,"5,50",,,img/passatempo-morango-130.jpg,,,S,32,
-bono-chocolate-90,Bono Chocolate,Nestlé,90 g,Biscoitos & Cereais,"5,00",,,img/bono-chocolate-90.jpg,,,S,33,
+bono-chocolate-90,Bono Chocolate,Nestlé,90 g,Biscoitos & Cereais,"5,00",,,img/bono-chocolate-90.jpg,,,S,33,23/10/2026
 cookie-garoto-crocante,Cookie Crocante Chocolate,Garoto,Pacote,Biscoitos & Cereais,"4,50",,,img/cookie-garoto-crocante.jpg,,,S,34,
-club-social-integral-288,Club Social Integral,Club Social,288 g,Biscoitos & Cereais,"2,50",,,img/club-social-integral-288.jpg,,,S,35,
+club-social-integral-288,Club Social Integral,Club Social,Sachê,Biscoitos & Cereais,"2,50",,,img/club-social-integral-288.jpg,,,S,35,23/10/2026
 cereal-nescau-120,Cereal Nescau,Nestlé,120 g,Biscoitos & Cereais,"8,00",,,img/cereal-nescau-120.jpg,,,S,36,
 nutry-banana-22,Barra de Cereal Banana,Nutry,22 g,Biscoitos & Cereais,"3,00",,,img/nutry-banana-22.jpg,,,S,37,
 crunch-garoto-80,Chocolate Crunch,Garoto,80 g,Chocolates & Doces,"9,50",,,img/crunch-garoto-80.jpg,,,S,38,
@@ -48,7 +48,7 @@ nissin-galinha-caipira-85,Lámen Galinha Caipira,Nissin,85 g,Instantâneos,"3,50
 lasanha-sadia-bolonhesa-350,Lasanha Bolonhesa,Sadia,350 g,Refrigerados & Congelados,"19,00",,,img/lasanha-sadia-bolonhesa-350.jpg,,,S,47,
 fettuccine-perdigao-bolonhesa,Fettuccine Bolonhesa,Perdigão,Pacote,Refrigerados & Congelados,"11,00",,,img/fettuccine-perdigao-bolonhesa.jpg,,,S,48,
 sanduiche-sadia-frango-145,Sanduíche de Frango,Sadia,145 g,Refrigerados & Congelados,"13,50",,,img/sanduiche-sadia-frango-145.jpg,,,S,49,
-hot-hit-seara-xbacon-145,Hot Hit X-Bacon,Seara,145 g,Refrigerados & Congelados,"12,00",,,img/hot-hit-seara-xbacon-145.jpg,,,S,50,
+hot-hit-seara-xbacon-145,Hot Hit X-Bacon,Seara,145 g,Refrigerados & Congelados,"12,00",,,img/hot-hit-seara-xbacon-145.jpg,,,S,50,23/10/2026
 pizza-beni-calabresa-110,Pizza Calabresa,Beni,110 g,Refrigerados & Congelados,"7,50",,,img/pizza-beni-calabresa-110.jpg,,,S,51,
 nuggets-275,Nuggets,Aurora,275 g,Refrigerados & Congelados,"11,00",,,,,,S,52,
 tirinha-frango-aurora-275,Tirinhas de Frango,Aurora,275 g,Refrigerados & Congelados,"11,00",,,img/tirinha-frango-aurora-275.jpg,,,S,53,
@@ -85,3 +85,16 @@ cream-cracker-mammamia,Cream Cracker,Mammamia,Pacote,Biscoitos & Cereais,,,,,,21
 kinder-joy,Kinder Joy,Kinder,Unidade,Chocolates & Doces,,,,,,21/10/2026,N,84,
 iogurte-nestle-zero-morango-170,Iogurte Zero Morango,Nestlé,170 g,Refrigerados & Congelados,,,,,,21/10/2026,N,85,
 pao-de-queijo-300,Pão de Queijo Tradicional,,300 g,Refrigerados & Congelados,,,,,,21/10/2026,N,86,
+fanta-laranja-lata-220,Fanta Laranja,Fanta,Lata 220 ml,Bebidas,"3,50",,,img/fanta-laranja-lata-220.jpg,,23/10/2026,S,87,
+fanta-uva-lata-220,Fanta Uva,Fanta,Lata 220 ml,Bebidas,"3,50",,,img/fanta-uva-lata-220.jpg,,23/10/2026,S,88,
+red-bull-zero-250,Energético Red Bull Zero,Red Bull,Lata 250 ml,Energéticos,"13,00",,,img/red-bull-zero-250.jpg,,23/10/2026,S,89,
+club-social-presunto,Club Social Presunto,Club Social,Sachê,Biscoitos & Cereais,"2,50",,,img/club-social-presunto.jpg,,23/10/2026,S,90,
+bauducco-barrinha-chocolate-25,Barrinha Recheada Chocolate,Bauducco,25 g,Biscoitos & Cereais,"2,25",,,img/bauducco-barrinha-chocolate-25.jpg,,23/10/2026,S,91,
+bauducco-biscoito-chocolate-108,Biscoito Recheado Chocolate,Bauducco,108 g,Biscoitos & Cereais,"4,00",,,img/bauducco-biscoito-chocolate-108.jpg,,23/10/2026,S,92,
+cup-noodles-yakissoba-70,Cup Noodles Yakissoba,Nissin,70 g,Instantâneos,"6,00",,,img/cup-noodles-yakissoba-70.jpg,,23/10/2026,S,93,
+lasanha-seara-bolonhesa-300,Lasanha à Bolonhesa Air Fryer,Seara,300 g,Refrigerados & Congelados,"15,00",,,img/lasanha-seara-bolonhesa-300.jpg,,23/10/2026,S,94,
+hot-hit-seara-xpicanha-145,Hot Hit X-Picanha com Ketchup,Seara,145 g,Refrigerados & Congelados,"12,00",,,img/hot-hit-seara-xpicanha-145.jpg,,23/10/2026,S,95,
+toscanaburguer-perdigao-145,Toscanaburguer Montana,Perdigão,145 g,Refrigerados & Congelados,"12,00",,,img/toscanaburguer-perdigao-145.jpg,,23/10/2026,S,96,
+faroeste-burger-145,Faroeste Burger X-Bacon com Requeijão,,145 g,Refrigerados & Congelados,"12,00",,,img/faroeste-burger-145.jpg,,23/10/2026,S,97,
+empanado-presunto-queijo-110,Recheado Presunto e Queijo,Seara,110 g,Refrigerados & Congelados,"5,00",,,img/empanado-presunto-queijo-110.jpg,,23/10/2026,S,98,
+coca-cola-pet-15,Coca-Cola,Coca-Cola,"Garrafa 1,5 L",Bebidas,,,,,,23/10/2026,N,99,

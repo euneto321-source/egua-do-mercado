@@ -54,7 +54,7 @@ P = [
     ("passatempo-morango-130", "Passatempo Morango", "Nestlé", "130 g", "Biscoitos & Cereais", 5.50, "01a15088-7587-7bf4-9ead-84d83ab344d1.jpeg"),
     ("bono-chocolate-90", "Bono Chocolate", "Nestlé", "90 g", "Biscoitos & Cereais", 5.00, "01a15089-6f1f-7856-9b1f-b408ff64b560.jpeg"),
     ("cookie-garoto-crocante", "Cookie Crocante Chocolate", "Garoto", "Pacote", "Biscoitos & Cereais", 4.50, "01a15094-afb7-7345-9bd8-a5b30a796a24.jpeg"),
-    ("club-social-integral-288", "Club Social Integral", "Club Social", "288 g", "Biscoitos & Cereais", 2.50, "01a1515b-cb06-70ba-aaa9-f2fcd21563b6.jpeg"),
+    ("club-social-integral-288", "Club Social Integral", "Club Social", "Sachê", "Biscoitos & Cereais", 2.50, "01a1515b-cb06-70ba-aaa9-f2fcd21563b6.jpeg"),
     ("cereal-nescau-120", "Cereal Nescau", "Nestlé", "120 g", "Biscoitos & Cereais", 8.00, "01a1515d-1ec2-70dc-bb50-5ca9f952baec.jpeg"),
     ("nutry-banana-22", "Barra de Cereal Banana", "Nutry", "22 g", "Biscoitos & Cereais", 3.00, "01a15088-0845-7b1e-8114-52c0cb34bf99.jpeg"),
     # Chocolates & Doces
@@ -112,9 +112,26 @@ P = [
     ("kinder-joy", "Kinder Joy", "Kinder", "Unidade", "Chocolates & Doces", None, ""),
     ("iogurte-nestle-zero-morango-170", "Iogurte Zero Morango", "Nestlé", "170 g", "Refrigerados & Congelados", None, ""),
     ("pao-de-queijo-300", "Pão de Queijo Tradicional", "", "300 g", "Refrigerados & Congelados", None, ""),
+    # 4ª compra (NFC-e 226172 Atacadão, 23/10/2026): preço e foto do cadastro Ton
+    ("fanta-laranja-lata-220", "Fanta Laranja", "Fanta", "Lata 220 ml", "Bebidas", 3.50, "01a169c4-82a9-71b8-9f23-fb01dfacf400.png"),
+    ("fanta-uva-lata-220", "Fanta Uva", "Fanta", "Lata 220 ml", "Bebidas", 3.50, "01a169c8-eca6-7e24-8497-e65f4fda3bf6.png"),
+    ("red-bull-zero-250", "Energético Red Bull Zero", "Red Bull", "Lata 250 ml", "Energéticos", 13.00, "01a16912-fd19-7e79-96c4-034636e1dbf6.png"),
+    ("club-social-presunto", "Club Social Presunto", "Club Social", "Sachê", "Biscoitos & Cereais", 2.50, "01a169ce-7f33-70fc-b1e1-4793d1fe0c4a.png"),
+    ("bauducco-barrinha-chocolate-25", "Barrinha Recheada Chocolate", "Bauducco", "25 g", "Biscoitos & Cereais", 2.25, "01a16910-464f-7139-ac84-03cb4d3b7eaa.png"),
+    ("bauducco-biscoito-chocolate-108", "Biscoito Recheado Chocolate", "Bauducco", "108 g", "Biscoitos & Cereais", 4.00, "01a16911-dd37-7677-9113-33fa8bbe9880.png"),
+    ("cup-noodles-yakissoba-70", "Cup Noodles Yakissoba", "Nissin", "70 g", "Instantâneos", 6.00, "01a16901-6ab7-790e-b07a-47e3e8603328.png"),
+    ("lasanha-seara-bolonhesa-300", "Lasanha à Bolonhesa Air Fryer", "Seara", "300 g", "Refrigerados & Congelados", 15.00, "01a16902-d016-7e44-bf35-545b1893381b.png"),
+    ("hot-hit-seara-xpicanha-145", "Hot Hit X-Picanha com Ketchup", "Seara", "145 g", "Refrigerados & Congelados", 12.00, "01a1690d-5d30-7594-8c18-64a686849647.png"),
+    ("toscanaburguer-perdigao-145", "Toscanaburguer Montana", "Perdigão", "145 g", "Refrigerados & Congelados", 12.00, "01a1690b-b33b-7ffd-9624-55ca417e0791.png"),
+    ("faroeste-burger-145", "Faroeste Burger X-Bacon com Requeijão", "", "145 g", "Refrigerados & Congelados", 12.00, "01a16904-939b-731b-ab92-b7ac6cc2440a.png"),
+    ("empanado-presunto-queijo-110", "Recheado Presunto e Queijo", "Seara", "110 g", "Refrigerados & Congelados", 5.00, "01a1690e-b7e1-7045-8ea7-dcad49e62c14.png"),
+    # comprado para revenda, ainda sem cadastro (nem preço) na Ton: oculto até ter preço
+    ("coca-cola-pet-15", "Coca-Cola", "Coca-Cola", "Garrafa 1,5 L", "Bebidas", None, ""),
 ]
-NOVIDADE = {sku: "21/10/2026" for sku, *_ in P[63:]}
-REABASTECIDO = {"coca-cola-lata-220": "21/10/2026", "coca-cola-zero-lata-220": "21/10/2026"}
+NOVIDADE = {**{sku: "21/10/2026" for sku, *_ in P[63:86]}, **{sku: "23/10/2026" for sku, *_ in P[86:]}}
+REABASTECIDO = {"coca-cola-lata-220": "21/10/2026", "coca-cola-zero-lata-220": "21/10/2026",
+                **{s: "23/10/2026" for s in ("bono-chocolate-90", "crony-35", "pringles-original-latao", "doritos-nacho-32",
+                                             "club-social-integral-288", "hot-hit-seara-xbacon-145")}}
 
 COLUNAS = ["sku", "nome", "marca", "apresentacao", "categoria", "preco", "preco_promo", "promo_ate",
            "foto", "mais_procurado", "novidade_desde", "ativo", "ordem", "reabastecido_em"]

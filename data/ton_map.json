@@ -27,6 +27,14 @@
   "id": "01a14cd5-c475-74b9-80f8-d5247dcbdd2f",
   "nome_ton": "Batata Bem Brasil para assar 400g"
  },
+ "bauducco-barrinha-chocolate-25": {
+  "id": "01a16910-a20b-713b-8cdf-e0f78d2ea72d",
+  "nome_ton": "Bauducco Barrinha sabor Chocolate"
+ },
+ "bauducco-biscoito-chocolate-108": {
+  "id": "01a16912-3562-7678-9f40-6200e5d9f810",
+  "nome_ton": "Bauducco Biscoito Chocolate"
+ },
  "bis-original-100": {
   "id": "01a1509b-9fe9-7450-a3a0-6b283cf47dc5",
   "nome_ton": "Bis Original"
@@ -58,6 +66,10 @@
  "club-social-integral-288": {
   "id": "01a14cb0-dcc3-7f36-8172-8bf97edc1894",
   "nome_ton": "Club Social Integral 288g"
+ },
+ "club-social-presunto": {
+  "id": "01a169cf-0f34-735d-8f4c-7076bc554c40",
+  "nome_ton": "Club Social Sabor Presunto"
  },
  "coca-cola-lata-220": {
   "id": "01a14c9f-9ee1-797f-beb8-e7b7f8c602bc",
@@ -99,6 +111,10 @@
   "id": "01a14ca6-936f-7dfb-82eb-333d4a3bc936",
   "nome_ton": "Cup Noodles de Carne 69g"
  },
+ "cup-noodles-yakissoba-70": {
+  "id": "01a16902-4cad-7db9-931f-78109c8df912",
+  "nome_ton": "Cup Noodles Yakissoba"
+ },
  "dafruta-laranja-200": {
   "id": "01a14c9b-fc13-7b8d-a083-3de317d329a1",
   "nome_ton": "Suco de Laranja Dafruta 200ml"
@@ -111,6 +127,10 @@
   "id": "01a14cd9-90fc-7055-854c-4558ce18d4a4",
   "nome_ton": "Doritos Nacho 32g"
  },
+ "empanado-presunto-queijo-110": {
+  "id": "01a1690e-f3f2-7a6b-bfe9-600400b01047",
+  "nome_ton": "Recheado Presunto e Queijo"
+ },
  "escova-colgate-classic-clean": {
   "id": "01a16381-778a-76c4-86e7-98116b507728",
   "nome_ton": "Escova de Dentes Colgate Classic Clean"
@@ -119,9 +139,21 @@
   "id": "01a15994-3319-77e6-864c-e88978e2ecc3",
   "nome_ton": "Fandangos Sabor Queijo"
  },
+ "fanta-laranja-lata-220": {
+  "id": "01a169c5-bd3e-71f5-ae0f-29c45ec8174f",
+  "nome_ton": "Fanta Laranja 220 ml"
+ },
  "fanta-laranja-lata-350": {
   "id": "01a14ca1-e7de-7d20-a150-e94905c85617",
   "nome_ton": "Fanta Laranja Lata 350ml"
+ },
+ "fanta-uva-lata-220": {
+  "id": "01a169c9-5ea7-7b33-959e-a993401ada1b",
+  "nome_ton": "Fanta sabor Uva"
+ },
+ "faroeste-burger-145": {
+  "id": "01a16905-2a4f-7654-a255-08e6d0a9cd86",
+  "nome_ton": "Faroeste Burger X Bacon com Requeijão"
  },
  "fettuccine-perdigao-bolonhesa": {
   "id": "01a14cd1-a605-7ab5-8b90-710f216ae8f7",
@@ -151,6 +183,10 @@
   "id": "01a14cce-e300-7e88-b0e5-28662ebca480",
   "nome_ton": "Sanduíche Hot Hit Seara X-Bacon 145g"
  },
+ "hot-hit-seara-xpicanha-145": {
+  "id": "01a1690d-f6d9-70b6-9336-965725b2f048",
+  "nome_ton": "Seara Hot Hit Sabor X-Picanha com ketchup"
+ },
  "iogurte-duo-morango-120": {
   "id": "01a1638c-e44e-7aea-9a34-988d79a48413",
   "nome_ton": "Iogurte Duo Morango Canto de Minas 120g"
@@ -174,6 +210,10 @@
  "lasanha-sadia-bolonhesa-350": {
   "id": "01a14ccc-7314-7339-95ce-c89356fa3b42",
   "nome_ton": "Lasanha Bolonhesa Sadia 350g"
+ },
+ "lasanha-seara-bolonhesa-300": {
+  "id": "01a16903-4853-79c6-a661-86bfd4aded5b",
+  "nome_ton": "Lasanha à Bolonhesa Air Fryer"
  },
  "leite-em-po-200": {
   "id": "01a14cc9-b115-74e1-9391-51bf53597953",
@@ -283,6 +323,10 @@
   "id": "01a14ca5-5e03-7ded-8515-fb3aaa2a6a57",
   "nome_ton": "Energético Red Bull 250ml"
  },
+ "red-bull-zero-250": {
+  "id": "01a16913-3cd4-7b1d-94e5-3a0477fd3b3a",
+  "nome_ton": "Red Bull ZERO"
+ },
  "refinata-picanha-40": {
   "id": "01a14cdb-061a-7759-8ba9-52e0cd08f453",
   "nome_ton": "Batata Refinata Picanha 40g"
@@ -318,6 +362,10 @@
  "torcida-churrasco-35": {
   "id": "01a14cd4-0548-7670-845d-bc7e5fb65e57",
   "nome_ton": "Petisco Torcida Churrasco 35g"
+ },
+ "toscanaburguer-perdigao-145": {
+  "id": "01a1690c-4c39-796f-9d22-a322c6046787",
+  "nome_ton": "Toscanaburguer Montana Perdigão"
  },
  "trident": {
   "id": "01a14cbf-d3f8-734f-b81c-f16f9c3af408",

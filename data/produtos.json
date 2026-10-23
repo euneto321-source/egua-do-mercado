@@ -271,7 +271,7 @@
    "novidade_desde": "",
    "ativo": "S",
    "ordem": 17,
-   "reabastecido_em": ""
+   "reabastecido_em": "23/10/2026"
   },
   {
    "sku": "crony-35",
@@ -287,7 +287,7 @@
    "novidade_desde": "",
    "ativo": "S",
    "ordem": 18,
-   "reabastecido_em": ""
+   "reabastecido_em": "23/10/2026"
   },
   {
    "sku": "refinata-picanha-40",
@@ -319,7 +319,7 @@
    "novidade_desde": "",
    "ativo": "S",
    "ordem": 20,
-   "reabastecido_em": ""
+   "reabastecido_em": "23/10/2026"
   },
   {
    "sku": "cheetos-lua-35",
@@ -527,7 +527,7 @@
    "novidade_desde": "",
    "ativo": "S",
    "ordem": 33,
-   "reabastecido_em": ""
+   "reabastecido_em": "23/10/2026"
   },
   {
    "sku": "cookie-garoto-crocante",
@@ -549,7 +549,7 @@
    "sku": "club-social-integral-288",
    "nome": "Club Social Integral",
    "marca": "Club Social",
-   "apresentacao": "288 g",
+   "apresentacao": "Sachê",
    "categoria": "Biscoitos & Cereais",
    "preco": "2,50",
    "preco_promo": "",
@@ -559,7 +559,7 @@
    "novidade_desde": "",
    "ativo": "S",
    "ordem": 35,
-   "reabastecido_em": ""
+   "reabastecido_em": "23/10/2026"
   },
   {
    "sku": "cereal-nescau-120",
@@ -799,7 +799,7 @@
    "novidade_desde": "",
    "ativo": "S",
    "ordem": 50,
-   "reabastecido_em": ""
+   "reabastecido_em": "23/10/2026"
   },
   {
    "sku": "pizza-beni-calabresa-110",
@@ -1375,6 +1375,214 @@
    "novidade_desde": "21/10/2026",
    "ativo": "N",
    "ordem": 86,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "fanta-laranja-lata-220",
+   "nome": "Fanta Laranja",
+   "marca": "Fanta",
+   "apresentacao": "Lata 220 ml",
+   "categoria": "Bebidas",
+   "preco": "3,50",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/fanta-laranja-lata-220.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 87,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "fanta-uva-lata-220",
+   "nome": "Fanta Uva",
+   "marca": "Fanta",
+   "apresentacao": "Lata 220 ml",
+   "categoria": "Bebidas",
+   "preco": "3,50",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/fanta-uva-lata-220.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 88,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "red-bull-zero-250",
+   "nome": "Energético Red Bull Zero",
+   "marca": "Red Bull",
+   "apresentacao": "Lata 250 ml",
+   "categoria": "Energéticos",
+   "preco": "13,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/red-bull-zero-250.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 89,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "club-social-presunto",
+   "nome": "Club Social Presunto",
+   "marca": "Club Social",
+   "apresentacao": "Sachê",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "2,50",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/club-social-presunto.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 90,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "bauducco-barrinha-chocolate-25",
+   "nome": "Barrinha Recheada Chocolate",
+   "marca": "Bauducco",
+   "apresentacao": "25 g",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "2,25",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/bauducco-barrinha-chocolate-25.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 91,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "bauducco-biscoito-chocolate-108",
+   "nome": "Biscoito Recheado Chocolate",
+   "marca": "Bauducco",
+   "apresentacao": "108 g",
+   "categoria": "Biscoitos & Cereais",
+   "preco": "4,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/bauducco-biscoito-chocolate-108.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 92,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "cup-noodles-yakissoba-70",
+   "nome": "Cup Noodles Yakissoba",
+   "marca": "Nissin",
+   "apresentacao": "70 g",
+   "categoria": "Instantâneos",
+   "preco": "6,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/cup-noodles-yakissoba-70.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 93,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "lasanha-seara-bolonhesa-300",
+   "nome": "Lasanha à Bolonhesa Air Fryer",
+   "marca": "Seara",
+   "apresentacao": "300 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "15,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/lasanha-seara-bolonhesa-300.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 94,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "hot-hit-seara-xpicanha-145",
+   "nome": "Hot Hit X-Picanha com Ketchup",
+   "marca": "Seara",
+   "apresentacao": "145 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "12,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/hot-hit-seara-xpicanha-145.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 95,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "toscanaburguer-perdigao-145",
+   "nome": "Toscanaburguer Montana",
+   "marca": "Perdigão",
+   "apresentacao": "145 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "12,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/toscanaburguer-perdigao-145.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 96,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "faroeste-burger-145",
+   "nome": "Faroeste Burger X-Bacon com Requeijão",
+   "marca": "",
+   "apresentacao": "145 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "12,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/faroeste-burger-145.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 97,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "empanado-presunto-queijo-110",
+   "nome": "Recheado Presunto e Queijo",
+   "marca": "Seara",
+   "apresentacao": "110 g",
+   "categoria": "Refrigerados & Congelados",
+   "preco": "5,00",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "img/empanado-presunto-queijo-110.jpg",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "S",
+   "ordem": 98,
+   "reabastecido_em": ""
+  },
+  {
+   "sku": "coca-cola-pet-15",
+   "nome": "Coca-Cola",
+   "marca": "Coca-Cola",
+   "apresentacao": "Garrafa 1,5 L",
+   "categoria": "Bebidas",
+   "preco": "",
+   "preco_promo": "",
+   "promo_ate": "",
+   "foto": "",
+   "mais_procurado": "",
+   "novidade_desde": "23/10/2026",
+   "ativo": "N",
+   "ordem": 99,
    "reabastecido_em": ""
   }
  ]
